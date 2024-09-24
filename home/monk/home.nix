@@ -16,8 +16,8 @@
   };
 
   home = {
-    username = "gabriel";
-    homeDirectory = "/home/gabriel";
+    username = "monk";
+    homeDirectory = "/home/monk";
 
     sessionVariables = {
       # Shell
