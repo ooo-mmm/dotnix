@@ -106,6 +106,19 @@
     };
   };
 
+  hardware.opengl = {
+    enable = true;
+  };
+
+# Load nvidia driver for Xorg and Wayland
+  services.xserver.videoDrivers = ["nvidia"];
+  
+  hardware.nvidia.modesetting.enable = true;
+  hardware.nvidia.powerManagement.enable = false;
+  hardware.nvidia.powerManagement.finegrained = false;
+  hardware.nvidia.open = false;
+  hardware.nvidia.nvidiaSettings = true;
+
   # Additional user accounts to be created automatically by the system
   users.users = {
     monk = {
