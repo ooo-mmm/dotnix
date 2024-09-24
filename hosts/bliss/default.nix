@@ -93,6 +93,13 @@
     # };
   };
 
+  services.xserver.displayManager.sessionCommands = ''
+    walls_dir = ${inputs.walls}
+    wall1 = $(shuf -en1 $walls_dir/*)
+    wall2 = $(shuf -en1 $walls_dir/*)
+    ${pkgs.feh}/bin/feh --bg-fill "$wall1" "$wall2"
+  '';
+
   hardware = {
     graphics = {
       enable = true;
