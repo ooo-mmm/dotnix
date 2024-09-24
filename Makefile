@@ -1,13 +1,13 @@
-.PHONY: all home aorus awesome
+.PHONY: all home bliss awesome
 
 all:
-	nixos-rebuild switch --flake .#aorus && home-manager switch --flake .#gabriel@aorus
+	nixos-rebuild switch --flake .#bliss && home-manager switch --flake .#monk@bliss
 
 home:
-	home-manager switch --flake .#gabriel@aorus
+	home-manager switch --flake .#monk@bliss
 
-aorus:
-	nixos-rebuild switch --flake .#aorus
+bliss:
+	nixos-rebuild switch --flake .#bliss
 
 awesome:
-	ln -sf $$HOME/dev/dotfiles/home/gabriel/config/awesome $$HOME/.config/awesome
+	ln -sf $$HOME/dev/dotfiles/home/monk/config/awesome $$HOME/.config/awesome
