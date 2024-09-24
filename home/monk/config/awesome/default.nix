@@ -34,4 +34,9 @@ in {
     enable = true;
     package = awesome-git;
   };
+
+  home.file.".config/awesome" = {
+    source = ./;
+    recursive = true;
+  };
 }
