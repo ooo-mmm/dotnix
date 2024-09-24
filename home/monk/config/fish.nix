@@ -50,6 +50,8 @@
       #########################################################################
       # Atuin (better shell history)
       atuin init fish | source
+№####################№##########
+      colorscript random
     '';
 
     # An attribute set that maps aliases (the top level attribute names in this
