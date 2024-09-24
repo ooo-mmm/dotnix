@@ -36,7 +36,7 @@ in {
   };
 
   home.file.".config/awesome" = {
-    source = ./;
+    source = ./awesome;
     recursive = true;
   };
 }
