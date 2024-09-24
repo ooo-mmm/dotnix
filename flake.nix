@@ -38,18 +38,18 @@
     inherit (self) outputs;
   in {
     nixosConfigurations = {
-      aorus = nixpkgs.lib.nixosSystem {
+      bliss = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs outputs; };
-        modules = [ ./hosts/aorus ];
+        modules = [ ./hosts/bliss ];
       };
     };
 
     homeConfigurations = {
-      "gabriel@aorus" = home-manager.lib.homeManagerConfiguration {
+      "monk@bliss" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = { inherit inputs outputs; };
         modules = [
-          ./home/gabriel/home.nix
+          ./home/monk/home.nix
           catppuccin.homeManagerModules.catppuccin
           ({ pkgs, ... }: {
               home.packages = [ yazi.packages.${pkgs.system}.default ];
