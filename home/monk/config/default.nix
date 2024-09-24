@@ -43,5 +43,6 @@
     virtiofsd
     wget
     lazygit
+    dwt1-shell-color-scripts
   ];
 }
