@@ -59,11 +59,11 @@
   boot.loader.systemd-boot.enable = true;
 
   # The time zone used when displaying times and dates
-  time.timeZone = "America/Sao_Paulo";
+  time.timeZone = "Asia/Kolkata";
 
   # Networking settings
   networking = {
-    hostName = "aorus";
+    hostName = "bliss";
     networkmanager = {
       enable = true;
     };
@@ -74,7 +74,7 @@
     # Enable the X11 windowing system
     xserver = {
       enable = true;
-      videoDrivers = [ "amdgpu" ];
+      videoDrivers = [ "nvidia" ];
       displayManager = {
         startx.enable = true;
       };
@@ -100,6 +100,7 @@
   };
 
   hardware = {
+    opengl.enable = true;
     graphics = {
       enable = true;
       enable32Bit = true;
@@ -107,17 +108,17 @@
     opentabletdriver.enable = false;
     pulseaudio.enable = false;
     bluetooth = {
-      enable = false;
+      enable = true;
       powerOnBoot = true;
     };
   };
 
   # Additional user accounts to be created automatically by the system
   users.users = {
-    gabriel = {
-      description = "Gabriel Lima";
+    monk = {
+      description = "vg";
       isNormalUser = true;
-      initialPassword = "qw12QW!@";
+      initialPassword = "123";
       extraGroups = [ "wheel" "libvirtd" "gamemode" ];
     };
   };
