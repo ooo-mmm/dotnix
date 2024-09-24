@@ -42,5 +42,6 @@
     unzip
     virtiofsd
     wget
+    lazygit
   ];
 }
