@@ -74,7 +74,6 @@
     # Enable the X11 windowing system
     xserver = {
       enable = true;
-      videoDrivers = [ "nvidia" ];
       displayManager = {
         startx.enable = true;
       };
@@ -92,15 +91,9 @@
     #     enable = true;
     #   };
     # };
-
-    hardware.openrgb = {
-      enable = true;
-      motherboard = "amd";
-    };
   };
 
   hardware = {
-    opengl.enable = true;
     graphics = {
       enable = true;
       enable32Bit = true;

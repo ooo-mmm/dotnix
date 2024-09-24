@@ -2,7 +2,7 @@
 pkgs,
 ...
 }: let
-  imagePath = /home/gabriel/Pictures/Wallpapers/wallpaper.jpg;
+  imagePath = /home/monk/Pictures/Wallpapers/wallpaper.jpg;
 in {
   stylix = {
     enable = true;

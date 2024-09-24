@@ -4,8 +4,8 @@
 }: {
   programs.git = {
     enable = true;
-    userName = "Gabriel Lima";
-    userEmail = "gabrielgsdlima@gmail.com";
+    userName = "vg";
+    userEmail = "vaibhav7garg@gmail.com";
     extraConfig = {
       core = {
         askPass = "";

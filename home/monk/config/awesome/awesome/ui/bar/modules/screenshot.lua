@@ -5,7 +5,7 @@ local user    = require("config.user")
 local mod     = require("binds.mod")
 
 local screenshot = awful.widget.button {
-  image = "/home/gabriel/.config/awesome/theme/assets/icons/screenshot.png",
+  image = "/home/monk/.config/awesome/theme/assets/icons/screenshot.png",
   buttons = {
     awful.button({}, mod.leftclick, nil, function ()
       awful.spawn(user.apps.screnshoot .. " gui -p " .. user.config.home .. "/Pictures/Screenshots", false)
