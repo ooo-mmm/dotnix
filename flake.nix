@@ -24,6 +24,11 @@
 
     # Stylix
     stylix.url = "github:danth/stylix";
+
+    walls = {
+      url = "github:ooo-mmm/wallpapers";
+      flake = false;
+    };
   };
 
   outputs = {
