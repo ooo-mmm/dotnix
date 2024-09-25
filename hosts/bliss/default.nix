@@ -93,16 +93,6 @@
     # };
   };
 
-  services.xserver.displayManager.sessionCommands = ''
-    walls_dir = ${inputs.walls}
-    wall1 = $(shuf -en1 $walls_dir/*)
-    wall2 = $(shuf -en1 $walls_dir/*)
-    ${pkgs.feh}/bin/feh --bg-fill "$wall1" "$wall2"
-
-    
-    xrandr --output DP-0 --primary --mode 3440x1440@165 --pos 0x1080 --rotate normal --output DP-1 --off --output HDMI-0 --mode 2560x1080@75 --pos 383x0 --rotate normal
-  '';
-
   hardware = {
     graphics = {
       enable = true;

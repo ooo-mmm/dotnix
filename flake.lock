@@ -312,6 +312,7 @@
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs",
         "stylix": "stylix",
+        "walls": "walls",
         "yazi": "yazi"
       }
     },
@@ -394,6 +395,22 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "walls": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1712149499,
+        "narHash": "sha256-fi++Tbe7hidIDSBgYQkjDvXIUo1Ml+FCqLjpkNwxFmY=",
+        "owner": "ooo-mmm",
+        "repo": "wallpapers",
+        "rev": "ab9e07626094c36cadf080a85e9c8fac45be6893",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ooo-mmm",
+        "repo": "wallpapers",
         "type": "github"
       }
     },
