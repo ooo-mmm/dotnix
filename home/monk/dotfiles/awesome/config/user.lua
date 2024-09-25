@@ -2,7 +2,7 @@ local M = {}
 
 M.config = {
 	-- My profile config
-	user = "Gabriel Lima",
+	user = "vaibhav garg",
 	home = os.getenv("HOME"),
 	host = "aorus",
 	theme = "catppuccin_mocha",
