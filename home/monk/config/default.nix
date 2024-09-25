@@ -3,7 +3,7 @@
   ...
 }: {
   imports = [
-    # ./alacritty.nix
+    ./alacritty.nix
     # ./hyprland.nix
 
     ./awesome.nix
@@ -20,7 +20,7 @@
     ./starship.nix
     ./stylix.nix
     ./wallpaper.nix
-    ./wezterm.nix
+    # ./wezterm.nix
     ./yazi.nix
     ./zathura.nix
     ./zellij.nix
@@ -42,6 +42,7 @@
     obsidian
     pavucontrol
     ripgrep
+    rofi
     tldr
     unzip
     virtiofsd
