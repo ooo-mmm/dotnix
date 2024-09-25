@@ -49,7 +49,7 @@ in
       full-border = "${plugins}/full-border.yazi";
     };
 
-    initLua = ./init.lua;
+    initLua = ../dotfiles/yazi/init.lua;
 
     keymap = {
       manager.prepend_keymap = [

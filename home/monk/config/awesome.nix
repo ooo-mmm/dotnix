@@ -11,12 +11,6 @@ let
       rev = "a35fceda14c39b4a2b1c52947288b378f410f32a";
       hash = "sha256-IH/20D+qrgk5l6Zmu9egif7aVTUhMtLTVSgKY2i47BU=";
     };
-
-    patches = [ ];
-
-    postPatch = ''
-      patchShebangs tests/examples/_postprocess.lua
-    '';
   });
 in {
   imports = [
@@ -36,7 +30,7 @@ in {
   };
 
   home.file.".config/awesome" = {
-    source = ./awesome;
+    source = ../dotfiles/awesome;
     recursive = true;
   };
 }

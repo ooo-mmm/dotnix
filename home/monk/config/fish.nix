@@ -45,11 +45,11 @@
 
       #########################################################################
       # Shell prompt
-      starship init fish | source
+      # starship init fish | source
 
       #########################################################################
       # Atuin (better shell history)
-      atuin init fish | source
+      # atuin init fish | source
       #########################################################################
       colorscript random
     '';
@@ -94,6 +94,8 @@
       rm    = "rm -v";
       mkdir = "mkdir -p";
       rmdir = "rmdir -p";
+      lg = lazygit;
+      y = yazi;
     };
   };
 }
