@@ -21,7 +21,7 @@
           export WALLPAPERS_STATE_FILEPATH="${config.xdg.stateHome}/wallpaper-switcher/switcher_state"
           export WALLPAPER_WAIT_MIN=60
           export WALLPAPER_WAIT_MAX=180
-          exec ${../dotfiles/wallpaper-switcher.py}
+          exec ${../dotfiles/wallpaper/wallpaper-switcher.py}
         '';
       });
       RestartSec = 3;

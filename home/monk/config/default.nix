@@ -10,7 +10,7 @@
     ./bash.nix
     ./bat.nix
     ./btop.nix
-    ./direnv.nix
+    # ./direnv.nix
     ./eza.nix
     ./fish.nix
     ./flameshot.nix

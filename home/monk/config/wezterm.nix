@@ -7,6 +7,6 @@
   ];
 
   home.file = {
-    "../dotfiles/wezterm/wezterm.lua".source = ./wezterm.lua;
+   ".config/wezterm/wezterm.lua".source = ../dotfiles/wezterm/wezterm.lua;
   };
 }

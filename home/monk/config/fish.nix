@@ -94,8 +94,8 @@
       rm    = "rm -v";
       mkdir = "mkdir -p";
       rmdir = "rmdir -p";
-      lg = lazygit;
-      y = yazi;
+      lg    = "lazygit";
+      y     = "yazi";
     };
   };
 }

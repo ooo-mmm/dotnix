@@ -10,5 +10,5 @@ in {
   home.shellAliases = shellAliases;
   #programs.nushell.shellAliases = shellAliases;
 
-  xdg.configFile."zellij/config.kdl".source = ../dotfiles/zellij/config.kdl;
+  #xdg.configFile."zellij/config.kdl".source = ../dotfiles/zellij/config.kdl;
 }
