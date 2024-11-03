@@ -1,13 +1,15 @@
-.PHONY: all home bliss awesome
 
-all:
-	sudo nixos-rebuild switch --flake .#bliss && home-manager switch --flake .#monk@bliss
+pch:
+	sudo nixos-rebuild switch --flake .#pc && home-manager switch --flake .#v -b backup
 
-home:
-	home-manager switch --flake .#monk@bliss
+lapih:
+	sudo nixos-rebuild switch --flake .#lapi && home-manager switch --flake .#v -b backup
 
-bliss:
-	sudo nixos-rebuild switch --flake .#bliss
+v:
+	home-manager switch --flake .#v -b backup
 
-awesome:
-	ln -sf $$HOME/dev/dotfiles/home/monk/config/awesome $$HOME/.config/awesome
+pc:
+	sudo nixos-rebuild switch --flake .#pc
+
+lapi:
+	sudo nixos-rebuild switch --flake .#lapi

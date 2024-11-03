@@ -10,20 +10,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # Catppuccin
-    catppuccin.url = "github:catppuccin/nix";
+    hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1"; # hyprland development
+	  #distro-grub-themes.url = "github:AdisonCavani/distro-grub-themes";
 
     # Yazi file manager
     yazi.url = "github:sxyazi/yazi";
-
-    # COSMIC Epoch
-    # nixos-cosmic = {
-    #   url = "github:lilyinstarlight/nixos-cosmic";
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
-
-    # Stylix
-    stylix.url = "github:danth/stylix";
 
     walls = {
       url = "github:ooo-mmm/wallpapers";
@@ -35,31 +26,30 @@
     self,
     nixpkgs,
     home-manager,
-    catppuccin,
     yazi,
-    stylix,
     ...
   } @ inputs: let
     inherit (self) outputs;
-  in {
-    nixosConfigurations = {
-      bliss = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit inputs outputs; };
-        modules = [ ./hosts/bliss ];
-      };
+  hosts = [ "pc" "lapi" ];
+in
+{
+  nixosConfigurations = builtins.listToAttrs (map (host: {
+    name = host;
+    value = nixpkgs.lib.nixosSystem {
+      specialArgs = { inherit host inputs outputs; };
+      modules = [
+        ./hosts/${host}
+      ];
     };
+  }) hosts);
 
     homeConfigurations = {
-      "monk@bliss" = home-manager.lib.homeManagerConfiguration {
+      "v" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = { inherit inputs outputs; };
         modules = [
-          ./home/monk/home.nix
-          catppuccin.homeManagerModules.catppuccin
-          ({ pkgs, ... }: {
-              home.packages = [ yazi.packages.${pkgs.system}.default ];
-          })
-          stylix.homeManagerModules.stylix
+          ./home
+          #inputs.distro-grub-themes.nixosModules.${system}.default
         ];
       };
     };
