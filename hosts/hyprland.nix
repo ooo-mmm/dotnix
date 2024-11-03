@@ -45,7 +45,7 @@
     wlogout
     yad
     yt-dlp
-kitty
+    kitty
   ];
   programs = {
     hyprland = {

@@ -10,8 +10,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1"; # hyprland development
-	  #distro-grub-themes.url = "github:AdisonCavani/distro-grub-themes";
+    hyprland.url =
+      "git+https://github.com/hyprwm/Hyprland?submodules=1"; # hyprland development
+    #distro-grub-themes.url = "github:AdisonCavani/distro-grub-themes";
 
     # Yazi file manager
     yazi.url = "github:sxyazi/yazi";
@@ -22,36 +23,28 @@
     };
   };
 
-  outputs = {
-    self,
-    nixpkgs,
-    home-manager,
-    yazi,
-    ...
-  } @ inputs: let
-    inherit (self) outputs;
-  hosts = [ "pc" "lapi" ];
-in
-{
-  nixosConfigurations = builtins.listToAttrs (map (host: {
-    name = host;
-    value = nixpkgs.lib.nixosSystem {
-      specialArgs = { inherit host inputs outputs; };
-      modules = [
-        ./hosts/${host}
-      ];
-    };
-  }) hosts);
+  outputs = { self, nixpkgs, home-manager, yazi, ... }@inputs:
+    let
+      inherit (self) outputs;
+      hosts = [ "pc" "lapi" ];
+    in {
+      nixosConfigurations = builtins.listToAttrs (map (host: {
+        name = host;
+        value = nixpkgs.lib.nixosSystem {
+          specialArgs = { inherit host inputs outputs; };
+          modules = [ ./hosts/${host} ];
+        };
+      }) hosts);
 
-    homeConfigurations = {
-      "v" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.x86_64-linux;
-        extraSpecialArgs = { inherit inputs outputs; };
-        modules = [
-          ./home
-          #inputs.distro-grub-themes.nixosModules.${system}.default
-        ];
+      homeConfigurations = {
+        "v" = home-manager.lib.homeManagerConfiguration {
+          pkgs = nixpkgs.legacyPackages.x86_64-linux;
+          extraSpecialArgs = { inherit inputs outputs; };
+          modules = [
+            ./home
+            #inputs.distro-grub-themes.nixosModules.${system}.default
+          ];
+        };
       };
     };
-  };
 }

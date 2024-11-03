@@ -12,11 +12,7 @@ let
 
 in {
 
-  imports = [
-    ./user.nix
-    ./hyprland.nix
-    ./nvidia.nix
-  ];
+  imports = [ ./user.nix ./hyprland.nix ./nvidia.nix ];
   # BOOT related stuff
   boot = {
     kernelPackages = pkgs.linuxPackages_zen; # Kernel
@@ -132,7 +128,7 @@ in {
     fastfetch
     (mpv.override { scripts = [ mpvScripts.mpris ]; }) # with tray
     brave
-home-manager
+    home-manager
   ]) ++ [ python-packages ];
 
   # FONTS

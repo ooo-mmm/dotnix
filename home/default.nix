@@ -31,9 +31,7 @@
     };
   };
 
-  gtk = {
-    enable = true;
-  };
+  gtk = { enable = true; };
 
   xdg = {
     # NOTE: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html

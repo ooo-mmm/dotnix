@@ -1,19 +1,11 @@
 { pkgs, ... }:
 let
-  shellAliases = {
+  commonAliases = {
     ls = "eza --group-directories-first --long";
     ll = "eza --group-directories-first --long";
     la = "eza --group-directories-first --long --all";
     lt = "eza --group-directories-first --tree";
     llt = "eza --group-directories-first --long --tree";
-
-    # Change dirs
-    ".1" = "cd ..";
-    ".2" = "cd ../..";
-    ".3" = "cd ../../..";
-    ".4" = "cd ../../../..";
-    ".5" = "cd ../../../../..";
-
     # Editors
     n = "nvim";
     vi = "nvim";
@@ -33,14 +25,24 @@ let
     cp = "cp -v";
     mv = "mv -v";
     rm = "rm -v";
-    mkdir = "mkdir -p";
+
     rmdir = "rmdir -p";
-    watch-usb = "watch -n 1 -d grep -e Dirty: -e Writeback: /proc/meminfo";
     lg = "lazygit";
     y = "yazi";
   };
+  shellAliases = commonAliases // {
+    # Change dirs
+    ".1" = "cd ..";
+    ".2" = "cd ../..";
+    ".3" = "cd ../../..";
+    ".4" = "cd ../../../..";
+    ".5" = "cd ../../../../..";
+
+    mkdir = "mkdir -p";
+    watch-usb = "watch -n 1 -d grep -e Dirty: -e Writeback: /proc/meminfo";
+  };
   commonInitScript = ''
-    fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
+    fastfetch -c ~/.config/fastfetch/config-compact.jsonc
     #krabby random --no-mega --no-gmax --no-regional --no-title -s;
     #${pkgs.dwt1-shell-color-scripts}/bin/colorscript random
   '';
@@ -49,7 +51,7 @@ in {
   programs.nushell = {
     enable = true;
     configFile.source = ../dotfiles/nushell/config.nu;
-    inherit shellAliases;
+    shellAliases = commonAliases;
     extraConfig = commonInitScript;
   };
 
