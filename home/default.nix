@@ -13,6 +13,7 @@
     };
 
     sessionVariables = {
+      backupFileExtension = "hm-bk";
       # Shell
       BROWSER = "qutebrowser";
       EDITOR = "nvim";
@@ -51,7 +52,7 @@
 
     userDirs.createDirectories = true;
     configFile = {
-      ".config/" = {
+      "." = {
         source = ./dotfiles/dots;
         recursive = true;
         executable = true;
@@ -60,7 +61,6 @@
   };
 
   programs.home-manager.enable = true;
-
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";
 
