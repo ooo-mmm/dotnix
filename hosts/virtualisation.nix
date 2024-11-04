@@ -4,14 +4,14 @@
     containers.enable = true;
     docker.enable = lib.mkForce false;
     podman = {
-      enable = true;
+      enable = lib.mkForce true;
       # Create a `docker` alias for podman, to use it as a drop-in replacement
-      dockerCompat = true;
+      dockerCompat = lib.mkForce true;
       # Required for containers under podman-compose to be able to talk to each other.
-      defaultNetwork.settings.dns_enabled = true;
+      defaultNetwork.settings.dns_enabled = lib.mkForce true;
       # Periodically prune Podman resources
       autoPrune = {
-        enable = true;
+        enable = lib.mkForce true;
         dates = "weekly";
         flags = [ "--all" ];
       };

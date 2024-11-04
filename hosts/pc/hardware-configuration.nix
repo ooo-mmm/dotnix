@@ -16,15 +16,14 @@
 
   boot.extraModulePackages = [ ];
 
-  fileSystems."/boot" = {
-    device = "/dev/disk/by-label/NIX_BOOT";
-    fsType = "vfat";
+  fileSystems."/" = {
+    device = "/dev/disk/by-uuid/f44a6c8f-450f-4026-84a1-a7bfa669a9ff";
+    fsType = "ext4";
   };
 
-  fileSystems."/" = {
-    device = "/dev/disk/by-label/NIX_ROOT";
-    fsType = "btrfs";
-    options = [ "subvol=@" ];
+  fileSystems."/boot" = {
+    device = "/dev/disk/by-uuid/B061-03ED";
+    fsType = "vfat";
   };
 
   fileSystems."/media/dev" = {

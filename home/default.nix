@@ -30,6 +30,11 @@
       LESSHISTFILE = "-";
       PASSWORD_STORE_DIR = "$XDG_DATA_HOME/pass";
     };
+    activation.installDots = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
+      ${pkgs.rsync}/bin/rsync -avz --chmod=D2755,F744 ${
+        ../dotfiles/dots
+      }/ ${config.xdg.configHome}/
+    '';
   };
 
   gtk = { enable = true; };
@@ -51,13 +56,6 @@
     stateHome = "${config.home.homeDirectory}/.local/state";
 
     userDirs.createDirectories = true;
-    configFile = {
-      "." = {
-        source = ./dotfiles/dots;
-        recursive = true;
-        executable = true;
-      };
-    };
   };
 
   programs.home-manager.enable = true;

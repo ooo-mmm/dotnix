@@ -10,7 +10,8 @@
 # Variables
 scriptsDir=$HOME/.config/hypr/scripts
 wallpaper=$HOME/.config/hypr/wallpaper_effects/.wallpaper_modified
-waybar_style="$HOME/.config/waybar/style/[Dark] Latte-Wallust combined.css"
+waybar_config="$HOME/.config/waybar/config/[TOP] Default"
+waybar_style="$HOME/.config/waybar/style/[Wallust] Chroma Edge.css"
 kvantum_theme="Catppuccin-Mocha"
 color_scheme="prefer-dark"
 gtk_theme="Andromeda-dark"
@@ -43,9 +44,9 @@ if [ ! -f ~/.config/hypr/.initial_startup_done ]; then
     # initiate the kb_layout (for some reason) waybar cant launch it
     "$scriptsDir/SwitchKeyboardLayout.sh" > /dev/null 2>&1 &
 
+  	ln -sf "$waybar_config" "$HOME/.config/waybar/config"
     # Initial waybar style
-	if [ -f "$waybar_style" ]; then
-    	ln -sf "$waybar_style" "$HOME/.config/waybar/style.css"
+  	ln -sf "$waybar_style" "$HOME/.config/waybar/style.css"
 
 		# Refreshing waybar, swaync, rofi etc. 
 		"$scriptsDir/Refresh.sh" > /dev/null 2>&1 & 
