@@ -9,7 +9,7 @@
     pointerCursor = {
       package = pkgs.google-cursor;
       name = "GoogleDot-White";
-      size = 18;
+      size = 22;
     };
 
     sessionVariables = {
@@ -17,7 +17,7 @@
       # Shell
       BROWSER = "qutebrowser";
       EDITOR = "nvim";
-      TERMINAL = "alacritty";
+      TERMINAL = "kitty";
       TERM = "xterm-256color";
       HISTFILE = "$XDG_DATA_HOME/history";
       HISTSIZE = 10000;
@@ -37,7 +37,24 @@
     '';
   };
 
-  gtk = { enable = true; };
+  gtk = {
+    enable = true;
+    iconTheme = {
+      name = "Flat-Remix-Blue-Dark";
+      package = pkgs.flat-remix-icon-theme;
+    };
+
+    theme = {
+      # https://github.com/catppuccin/gtk
+      name = "Catppuccin-Macchiato-Compact-Pink-Dark";
+      package = pkgs.catppuccin-gtk.override {
+        # https://github.com/NixOS/nixpkgs/blob/nixos-23.05/pkgs/data/themes/catppuccin-gtk/default.nix
+        accents = [ "pink" ];
+        size = "compact";
+        variant = "macchiato";
+      };
+    };
+  };
 
   xdg = {
     # NOTE: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html

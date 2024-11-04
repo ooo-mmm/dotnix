@@ -1,8 +1,6 @@
 { pkgs, ... }: {
   imports = [
-    ./alacritty.nix
     ./bat.nix
-    ./btop.nix
     ./direnv.nix
     ./eza.nix
     ./flameshot.nix
@@ -20,6 +18,7 @@
 
   home.packages = with pkgs; [
     fd
+    btop
     gimp
     gnumake
     git-crypt

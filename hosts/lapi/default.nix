@@ -1,1 +1,1 @@
-_: { imports = [ ../os.nix ./hardware-configuration.nix ]; }
+_: { imports = [ ../os.nix ./montiors.nix ./hardware-configuration.nix ]; }
