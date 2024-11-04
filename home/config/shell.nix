@@ -1,11 +1,6 @@
 { pkgs, ... }:
 let
   commonAliases = {
-    ls = "eza --group-directories-first --long";
-    ll = "eza --group-directories-first --long";
-    la = "eza --group-directories-first --long --all";
-    lt = "eza --group-directories-first --tree";
-    llt = "eza --group-directories-first --long --tree";
     # Editors
     n = "nvim";
     vi = "nvim";
@@ -25,12 +20,18 @@ let
     cp = "cp -v";
     mv = "mv -v";
     rm = "rm -v";
-
     rmdir = "rmdir -p";
     lg = "lazygit";
     y = "yazi";
+    zj = "zellij";
   };
+
   shellAliases = commonAliases // {
+    ls = "eza --group-directories-first --long";
+    ll = "eza --group-directories-first --long";
+    la = "eza --group-directories-first --long --all";
+    lt = "eza --group-directories-first --tree";
+    llt = "eza --group-directories-first --long --tree";
     # Change dirs
     ".1" = "cd ..";
     ".2" = "cd ../..";
@@ -41,18 +42,35 @@ let
     mkdir = "mkdir -p";
     watch-usb = "watch -n 1 -d grep -e Dirty: -e Writeback: /proc/meminfo";
   };
-  commonInitScript = ''
-    fastfetch -c ~/.config/fastfetch/config-compact.jsonc
-    #krabby random --no-mega --no-gmax --no-regional --no-title -s;
-    #${pkgs.dwt1-shell-color-scripts}/bin/colorscript random
-  '';
-in {
 
+in {
+  # Include myEnv in the home manager environment
+  home.file.".config/random-color.sh" = {
+    text = ''
+      #!/usr/bin/env bash
+
+      # Array of commands
+      commands=(
+        "${pkgs.fastfetch}/bin/fastfetch -c ~/.config/fastfetch/config-compact.jsonc"
+        "${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s"
+        "${pkgs.dwt1-shell-color-scripts}/bin/colorscript random"
+      )
+
+      # Get a random command
+      random_command=''${commands[$((RANDOM % ''${#commands[@]}))]}
+
+      # Output the selected command
+      $random_command
+    '';
+    executable = true;
+  };
+
+  # Home Manager configurations
   programs.nushell = {
     enable = true;
     configFile.source = ../dotfiles/nushell/config.nu;
     shellAliases = commonAliases;
-    extraConfig = commonInitScript;
+    extraConfig = "~/.config/random-color.sh";
   };
 
   programs.bash = {
@@ -61,7 +79,7 @@ in {
     inherit shellAliases;
     bashrcExtra = ''
       export PATH="$HOME/.local/bin:$HOME/go/bin:$PATH"
-      ${commonInitScript}
+      ~/.config/random-color.sh
     '';
   };
 
@@ -104,8 +122,7 @@ in {
       set fish_pager_color_completion cdd6f4
       set fish_pager_color_description 6c7086
 
-      ${commonInitScript}
+      ~/.config/random-color.sh
     '';
   };
 }
-

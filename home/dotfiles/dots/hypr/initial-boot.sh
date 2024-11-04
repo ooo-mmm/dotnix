@@ -16,7 +16,6 @@ kvantum_theme="Catppuccin-Mocha"
 color_scheme="prefer-dark"
 gtk_theme="Andromeda-dark"
 icon_theme="Flat-Remix-Blue-Dark"
-cursor_theme="Bibata-Modern-Ice"
 
 swww="swww img"
 effect="--transition-bezier .43,1.19,1,.4 --transition-fps 30 --transition-type grow --transition-pos 0.925,0.977 --transition-duration 2"
@@ -34,8 +33,7 @@ if [ ! -f ~/.config/hypr/.initial_startup_done ]; then
     # initiate GTK dark mode and apply icon and cursor theme
     # gsettings set org.gnome.desktop.interface color-scheme $color_scheme > /dev/null 2>&1 &
     # gsettings set org.gnome.desktop.interface gtk-theme $gtk_theme > /dev/null 2>&1 &
-    # gsettings set org.gnome.desktop.interface icon-theme $icon_theme > /dev/null 2>&1 &
-    # gsettings set org.gnome.desktop.interface cursor-theme $cursor_theme > /dev/null 2>&1 &
+    gsettings set org.gnome.desktop.interface icon-theme $icon_theme > /dev/null 2>&1 &
     # gsettings set org.gnome.desktop.interface cursor-size 24 > /dev/null 2>&1 &
     
     # initiate kvantum theme

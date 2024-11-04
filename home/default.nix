@@ -46,14 +46,13 @@
 
     theme = {
       # https://github.com/catppuccin/gtk
-      name = "Catppuccin-Macchiato-Compact-Pink-Dark";
-      package = pkgs.catppuccin-gtk.override {
-        # https://github.com/NixOS/nixpkgs/blob/nixos-23.05/pkgs/data/themes/catppuccin-gtk/default.nix
-        accents = [ "pink" ];
-        size = "compact";
-        variant = "macchiato";
-      };
+      name = "Tokyonight";
+      package = pkgs.tokyonight-gtk-theme;
     };
+  };
+
+  dconf.settings = {
+    "org/gnome/desktop/interface" = { color-scheme = "prefer-dark"; };
   };
 
   xdg = {
