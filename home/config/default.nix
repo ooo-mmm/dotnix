@@ -32,6 +32,7 @@
     nil
     nixd
     nixfmt
+    meld
     glow
   ];
 
