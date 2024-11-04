@@ -10,7 +10,7 @@
 # Variables
 scriptsDir=$HOME/.config/hypr/scripts
 wallpaper=$HOME/.config/hypr/wallpaper_effects/.wallpaper_modified
-waybar_config="$HOME/.config/waybar/config/[TOP] Default"
+waybar_config="$HOME/.config/waybar/configs/[TOP] Default"
 waybar_style="$HOME/.config/waybar/style/[Wallust] Chroma Edge.css"
 kvantum_theme="Catppuccin-Mocha"
 color_scheme="prefer-dark"
