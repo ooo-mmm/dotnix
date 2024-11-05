@@ -44,9 +44,9 @@ let
   };
 
   commonInitScript = ''
-    "${pkgs.fastfetch}/bin/fastfetch -c ~/.config/fastfetch/config-compact.jsonc"
-    # "${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s"
-    # "${pkgs.dwt1-shell-color-scripts}/bin/colorscript random"
+    ${pkgs.fastfetch}/bin/fastfetch -c ~/.config/fastfetch/config-compact.jsonc
+    # ${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s
+    # ${pkgs.dwt1-shell-color-scripts}/bin/colorscript random
   '';
 in {
   programs.nushell = {
