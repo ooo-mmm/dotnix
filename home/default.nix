@@ -9,7 +9,7 @@
     pointerCursor = {
       package = pkgs.google-cursor;
       name = "GoogleDot-White";
-      size = 22;
+      size = 24;
     };
 
     sessionVariables = {
@@ -45,9 +45,8 @@
     };
 
     theme = {
-      # https://github.com/catppuccin/gtk
-      name = "Tokyonight";
-      package = pkgs.tokyonight-gtk-theme;
+      name = "Andromeda-dark";
+      package = pkgs.andromeda-gtk-theme;
     };
   };
 
@@ -56,7 +55,6 @@
   };
 
   xdg = {
-    # NOTE: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
     enable = true;
 
     # $XDG_CACHE_HOME: Absolute path to directory holding application caches
