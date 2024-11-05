@@ -33,7 +33,7 @@
 
 "custom/browser": {
 	"format": " ",
-	"on-click": "firefox",
+	"on-click": "brave",
 	"tooltip": true,
 	"tooltip-format": "Launch Browser",
 },

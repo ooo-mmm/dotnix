@@ -128,6 +128,8 @@ in {
     (mpv.override { scripts = [ mpvScripts.mpris ]; }) # with tray
     brave
     home-manager
+    efibootmgr
+    gparted
   ]) ++ [ python-packages ];
 
   # FONTS
