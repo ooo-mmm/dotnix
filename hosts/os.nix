@@ -26,30 +26,31 @@ in {
 
     ## BOOT LOADERS: NOT USE ONLY 1. either systemd or grub
     # Bootloader SystemD
-    loader.systemd-boot = {
-      enable = true;
-      # we use Git for version control, so we don't need to keep too many generations.
-      configurationLimit = lib.mkDefault 10;
-      # pick the highest resolution for systemd-boot's console.
-      consoleMode = lib.mkDefault "max";
-    };
-    loader.efi = {
-      #efiSysMountPoint = "/efi"; #this is if you have separate /efi partition
-      canTouchEfiVariables = true;
-    };
+    # loader.systemd-boot = {
+    #   enable = true;
+    #   # we use Git for version control, so we don't need to keep too many generations.
+    #   configurationLimit = lib.mkDefault 10;
+    #   # pick the highest resolution for systemd-boot's console.
+    #   consoleMode = lib.mkDefault "max";
+    # };
+    # loader.efi = {
+    #   #efiSysMountPoint = "/efi"; #this is if you have separate /efi partition
+    #   canTouchEfiVariables = true;
+    # };
 
-    loader.timeout = 1;
+    loader.timeout = 5;
 
     # Bootloader GRUB
-    #loader.grub = {
-    #enable = true;
-    #  devices = [ "nodev" ];
-    #  efiSupport = true;
-    #  gfxmodeBios = "auto";
-    #  memtest86.enable = true;
-    #  extraGrubInstallArgs = [ "--bootloader-id=${host}" ];
-    #  configurationName = "${host}";
-    #	 };
+    loader.grub = {
+      enable = true;
+      devices = [ "nodev" ];
+      efiSupport = true;
+      gfxmodeBios = "auto";
+      memtest86.enable = true;
+      extraGrubInstallArgs = [ "--bootloader-id=${host}" ];
+      configurationName = "${host}";
+      theme = inputs.nixos-grub-themes.packages.${pkgs.system}.nixos;
+    };
 
     # Bootloader GRUB theme, configure below
 
@@ -75,10 +76,10 @@ in {
   };
 
   # GRUB Bootloader theme. Of course you need to enable GRUB above.. duh!
-  #distro-grub-themes = {
-  #  enable = true;
-  #  theme = "nixos";
-  #};
+  # distro-grub-themes = {
+  #   enable = true;
+  #   theme = "nixos";
+  # };
 
   # networking
   networking.networkmanager.enable = true;

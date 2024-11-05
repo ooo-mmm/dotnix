@@ -12,7 +12,7 @@
 
     hyprland.url =
       "git+https://github.com/hyprwm/Hyprland?submodules=1"; # hyprland development
-    #distro-grub-themes.url = "github:AdisonCavani/distro-grub-themes";
+    nixos-grub-themes.url = "github:jeslie0/nixos-grub-themes";
 
     # Yazi file manager
     yazi.url = "github:sxyazi/yazi";
@@ -40,10 +40,7 @@
         "v" = home-manager.lib.homeManagerConfiguration {
           pkgs = nixpkgs.legacyPackages.x86_64-linux;
           extraSpecialArgs = { inherit inputs outputs; };
-          modules = [
-            ./home
-            #inputs.distro-grub-themes.nixosModules.${system}.default
-          ];
+          modules = [ ./home ];
         };
       };
     };
