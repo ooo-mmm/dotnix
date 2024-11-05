@@ -43,34 +43,17 @@ let
     watch-usb = "watch -n 1 -d grep -e Dirty: -e Writeback: /proc/meminfo";
   };
 
+  commonInitScript = ''
+    "${pkgs.fastfetch}/bin/fastfetch -c ~/.config/fastfetch/config-compact.jsonc"
+    # "${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s"
+    # "${pkgs.dwt1-shell-color-scripts}/bin/colorscript random"
+  '';
 in {
-  # Include myEnv in the home manager environment
-  home.file.".config/random-color.sh" = {
-    text = ''
-      #!/usr/bin/env bash
-
-      # Array of commands
-      commands=(
-        "${pkgs.fastfetch}/bin/fastfetch -c ~/.config/fastfetch/config-compact.jsonc"
-        "${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s"
-        "${pkgs.dwt1-shell-color-scripts}/bin/colorscript random"
-      )
-
-      # Get a random command
-      random_command=''${commands[$((RANDOM % ''${#commands[@]}))]}
-
-      # Output the selected command
-      $random_command
-    '';
-    executable = true;
-  };
-
-  # Home Manager configurations
   programs.nushell = {
     enable = true;
     configFile.source = ../dotfiles/nushell/config.nu;
     shellAliases = commonAliases;
-    extraConfig = "~/.config/random-color.sh";
+    extraConfig = commonInitScript;
   };
 
   programs.bash = {
@@ -79,7 +62,7 @@ in {
     inherit shellAliases;
     bashrcExtra = ''
       export PATH="$HOME/.local/bin:$HOME/go/bin:$PATH"
-      ~/.config/random-color.sh
+      ${commonInitScript}
     '';
   };
 
@@ -122,7 +105,7 @@ in {
       set fish_pager_color_completion cdd6f4
       set fish_pager_color_description 6c7086
 
-      ~/.config/random-color.sh
+      ${commonInitScript}
     '';
   };
 }

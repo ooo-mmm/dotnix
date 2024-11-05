@@ -125,7 +125,6 @@ in {
     xdg-user-dirs
     xdg-utils
     ventoy
-    fastfetch
     (mpv.override { scripts = [ mpvScripts.mpris ]; }) # with tray
     brave
     home-manager
