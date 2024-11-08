@@ -43,17 +43,13 @@ let
     watch-usb = "watch -n 1 -d grep -e Dirty: -e Writeback: /proc/meminfo";
   };
 
-  commonInitScript = ''
-    ${pkgs.fastfetch}/bin/fastfetch -c ~/.config/fastfetch/config-compact.jsonc
-    # ${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s
-    # ${pkgs.dwt1-shell-color-scripts}/bin/colorscript random
-  '';
 in {
   programs.nushell = {
     enable = true;
     configFile.source = ../dotfiles/nushell/config.nu;
     shellAliases = commonAliases;
-    extraConfig = commonInitScript;
+    extraConfig =
+      "${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s";
   };
 
   programs.bash = {
@@ -62,7 +58,7 @@ in {
     inherit shellAliases;
     bashrcExtra = ''
       export PATH="$HOME/.local/bin:$HOME/go/bin:$PATH"
-      ${commonInitScript}
+      ${pkgs.dwt1-shell-color-scripts}/bin/colorscript random
     '';
   };
 
@@ -105,7 +101,7 @@ in {
       set fish_pager_color_completion cdd6f4
       set fish_pager_color_description 6c7086
 
-      ${commonInitScript}
+      ${pkgs.fastfetch}/bin/fastfetch -c ~/.config/fastfetch/config-compact.jsonc
     '';
   };
 }
