@@ -53,7 +53,7 @@
       # "metals.enableIndentOnPaste" = true;
       "telemetry.telemetryLevel" = "off";
       "workbench.startupEditor" = "none";
-      "workbench.colorTheme" = "Dracula";
+      "workbench.colorTheme" = "Dracula Theme";
       "window.menuBarVisibility" = "toggle";
       # "vim.normalModeKeyBindingsNonRecursive" = [{
       #   "before" = [ "<space>" ];
