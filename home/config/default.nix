@@ -34,6 +34,7 @@
     nixfmt
     meld
     glow
+    inkscape
   ];
 
   programs = {

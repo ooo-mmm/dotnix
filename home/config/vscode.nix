@@ -25,7 +25,7 @@
       mhutchie.git-graph
       zainchen.json
       mkhl.direnv
-      ms-dotnettools.csdevkit
+      # ms-dotnettools.csdevkit
       # scala-lang.scala
       # scalameta.metals
       # vscjava.vscode-gradle
