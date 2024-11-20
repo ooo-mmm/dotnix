@@ -43,13 +43,13 @@ let
     watch-usb = "watch -n 1 -d grep -e Dirty: -e Writeback: /proc/meminfo";
   };
 
-in {
+in
+{
   programs.nushell = {
     enable = true;
     configFile.source = ../dotfiles/nushell/config.nu;
     shellAliases = commonAliases;
-    extraConfig =
-      "${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s";
+    extraConfig = "${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s";
   };
 
   programs.bash = {
@@ -57,6 +57,9 @@ in {
     enableCompletion = true;
     inherit shellAliases;
     bashrcExtra = ''
+      if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+        . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+      fi
       export PATH="$HOME/.local/bin:$HOME/go/bin:$PATH"
       ${pkgs.dwt1-shell-color-scripts}/bin/colorscript random
     '';
@@ -66,6 +69,10 @@ in {
     enable = true;
     inherit shellAliases;
     interactiveShellInit = ''
+      if test -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish'
+        source '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.fish'
+      end
+
       #########################################################################
       # Disable greeting message
       set -g fish_greeting

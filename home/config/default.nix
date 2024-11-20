@@ -80,6 +80,12 @@
       enableNushellIntegration = true;
     };
 
+    carapace = {
+      enable = true;
+      enableBashIntegration = true;
+      enableNushellIntegration = true;
+    };
+
     ssh = {
       enable = true;
       extraConfig = ''
