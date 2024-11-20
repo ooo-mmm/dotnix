@@ -1,18 +1,16 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   imports = [
     ./bat.nix
     ./direnv.nix
     ./eza.nix
-    ./flameshot.nix
     ./git.nix
     ./helix.nix
     ./neovim.nix
-    ./qutebrowser.nix
     ./shell.nix
     ./starship.nix
     ./vscode.nix
     ./yazi.nix
-    ./zathura.nix
     ./zellij.nix
   ];
 
@@ -31,12 +29,17 @@
     lazygit
     nil
     nixd
-    nixfmt
+    nixfmt-rfc-style
     meld
     glow
     inkscape
+    (nerdfonts.override { fonts = [ "FiraCode" ]; })
+    gcc
   ];
 
+  fonts = {
+    fontconfig.enable = true;
+  };
   programs = {
     #   # A command-line fuzzy finder
     fzf = {

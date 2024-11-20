@@ -2,7 +2,6 @@
   programs.vscode = {
     enable = true;
     enableUpdateCheck = false;
-    package = pkgs.vscode-fhs;
     extensions = with pkgs.vscode-extensions; [
       dracula-theme.theme-dracula
       # vscodevim.vim
