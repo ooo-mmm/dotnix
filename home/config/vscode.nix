@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   programs.vscode = {
     enable = true;
     enableUpdateCheck = false;
@@ -32,8 +33,11 @@
     ];
 
     userSettings = {
+      "editor.fontFamily" = "FiraCode Nerd Font Mono";
       "editor.formatOnSave" = true;
-      "files.associations" = { "*.ejson" = "json"; };
+      "files.associations" = {
+        "*.ejson" = "json";
+      };
       "files.insertFinalNewline" = true;
       "files.trimTrailingWhitespace" = true;
       "files.watcherExclude" = {
@@ -62,10 +66,11 @@
       #   "before" = [ "<space>" ];
       #   "commands" = [ "whichkey.show" ];
       # }];
-      "[python]" = { "editor.defaultFormatter" = "ms-python.black-formatter"; };
+      "[python]" = {
+        "editor.defaultFormatter" = "ms-python.black-formatter";
+      };
     };
 
     mutableExtensionsDir = true;
   };
 }
-
