@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ pkgs, lib, ... }: {
   ###################################################################################
   #
   #  Virtualisation - Libvirt(QEMU/KVM) / Docker / LXD / WayDroid
@@ -20,6 +20,7 @@
 
   virtualisation = {
     containers.enable = true;
+    podman.enable = lib.mkForce false;
     docker = {
       enable = true;
       daemon.settings = {
