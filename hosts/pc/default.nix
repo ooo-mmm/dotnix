@@ -1,8 +1,4 @@
 { ... }: {
-  imports = [
-    ../os.nix
-    ../virtualisation.nix
-    ./montiors.nix
-    ./hardware-configuration.nix
-  ];
+  imports =
+    [ ../os.nix ../docker.nix ./montiors.nix ./hardware-configuration.nix ];
 }
