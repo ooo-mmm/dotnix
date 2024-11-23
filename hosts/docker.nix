@@ -1,7 +1,4 @@
-{
-  pkgs,
-  ...
-}: {
+{ pkgs, ... }: {
   ###################################################################################
   #
   #  Virtualisation - Libvirt(QEMU/KVM) / Docker / LXD / WayDroid
@@ -17,17 +14,18 @@
   #
   ## For Intel CPU, add "kvm-intel" to kernelModules.
   # boot.kernelModules = ["kvm-intel"];
-  # boot.extraModprobeConfig = "options kvm_intel nested=1"; # for intel cpu
+  # boot.
 
-  boot.kernelModules = ["vfio-pci"];
+  boot.kernelModules = [ "vfio-pci" ];
 
   virtualisation = {
+    containers.enable = true;
     docker = {
       enable = true;
       daemon.settings = {
         # enables pulling using containerd, which supports restarting from a partial pull
         # https://docs.docker.com/storage/containerd/
-        "features" = {"containerd-snapshotter" = true;};
+        "features" = { "containerd-snapshotter" = true; };
       };
 
       # start dockerd on boot.
@@ -41,9 +39,29 @@
     # libvirtd = {
     #   enable = true;
     #   # hanging this option to false may cause file permission issues for existing guests.
-    #   # To fix these, manually change ownership ofga
+    #   # To figa
     #   qemu-pr-helper qemu-nbd elf2dmp qemu-img qemu-io
     #   qemu-kvm qemu-system-x86_64 qemu-system-aarch64 qemu-system-i386
+    #   qemu.runAsRoot = true;
+    # };
+
+    # lxd.enable = true;
+  };
+
+  environment.systemPackages = with pkgs; [
+    # This script is used to install the arm translation layer for waydroid
+    # so that we can install arm apks on x86_64 waydroid
+    #
+    # https://github.com/casualsnek/waydroid_script
+    # https://github.com/AtaraxiaSjel/nur/tree/master/pkgs/waydroid-script
+    # https://wiki.archlinux.org/title/Waydroid#ARM_Apps_Incompatible
+    # nur-ataraxiasjel.packages.${pkgs.system}.waydroid-script
+
+    # Need to add [File (in the menu bar) -> Add connection] when start for the first time
+    # virt-manager
+
+    # QEMU/KVM(HostCpuOnly), provides:
+    #   qemu-storage-daemon qemu-edid qemu-x these, manually change ownership ofextraModprobeConfig = "options kvm_intel nested=1"; # for intel cpu
     qemu_kvm
 
     # Install QEMU(other architectures), provides:
