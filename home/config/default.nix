@@ -36,6 +36,7 @@
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
     gcc
     gdu
+    wakelan
   ];
 
   fonts = {
