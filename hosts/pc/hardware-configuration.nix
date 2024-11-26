@@ -36,6 +36,11 @@
     fsType = "ntfs";
   };
 
+  fileSystems."/media/x40" = {
+    device = "/dev/disk/by-label/x40";
+    fsType = "btrfs";
+  };
+
   swapDevices = [ ];
 
   # Enables DHCP on each ethernet and wireless interface. In case of scripted networking

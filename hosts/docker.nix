@@ -23,10 +23,12 @@
     podman.enable = lib.mkForce false;
     docker = {
       enable = true;
+      enableNvidia = true;
       daemon.settings = {
         # enables pulling using containerd, which supports restarting from a partial pull
         # https://docs.docker.com/storage/containerd/
         "features" = { "containerd-snapshotter" = true; };
+        data-root = "/media/x40/docker_data";
       };
 
       # start dockerd on boot.
@@ -73,5 +75,6 @@
     #   qemu-system-xtensa qemu-xtensa qemu-system-xtensaeb qemu-xtensaeb
     #   ......
     qemu
+    docker-compose
   ];
 }
