@@ -131,6 +131,7 @@ in {
     home-manager
     efibootmgr
     gparted
+    ethtool
   ]) ++ [ python-packages ];
 
   # FONTS
