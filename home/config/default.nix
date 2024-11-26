@@ -35,6 +35,7 @@
     meld
     glow
     inkscape
+    gdu
   ];
 
   programs = {
