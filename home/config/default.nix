@@ -35,6 +35,7 @@
     inkscape
     (nerdfonts.override { fonts = [ "FiraCode" ]; })
     gcc
+    gdu
   ];
 
   fonts = {
