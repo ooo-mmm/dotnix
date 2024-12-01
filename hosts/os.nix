@@ -26,30 +26,39 @@ in {
 
     ## BOOT LOADERS: NOT USE ONLY 1. either systemd or grub
     # Bootloader SystemD
-    # loader.systemd-boot = {
-    #   enable = true;
-    #   # we use Git for version control, so we don't need to keep too many generations.
-    #   configurationLimit = lib.mkDefault 10;
-    #   # pick the highest resolution for systemd-boot's console.
-    #   consoleMode = lib.mkDefault "max";
-    # };
-    # loader.efi = {
-    #   #efiSysMountPoint = "/efi"; #this is if you have separate /efi partition
-    #   canTouchEfiVariables = true;
-    # };
+    loader = {
+      systemd-boot = {
+        enable = lib.mkForce false;
+        # we use Git for version control, so we don't need to keep too many generations.
+        configurationLimit = lib.mkDefault 10;
+        # pick the highest resolution for systemd-boot's console.
+        consoleMode = lib.mkDefault "max";
+      };
 
-    loader.timeout = 5;
+      efi = {
+        efiSysMountPoint =
+          "/boot"; # this is if you have separate /efi partition
+        canTouchEfiVariables = true;
+      };
 
-    # Bootloader GRUB
-    loader.grub = {
-      enable = true;
-      devices = [ "nodev" ];
-      efiSupport = true;
-      gfxmodeBios = "auto";
-      memtest86.enable = true;
-      extraGrubInstallArgs = [ "--bootloader-id=${host}" ];
-      configurationName = "${host}";
-      theme = inputs.nixos-grub-themes.packages.${pkgs.system}.nixos;
+      timeout = 5;
+
+      # Bootloader GRUB
+      grub = {
+        enable = true;
+        device = "nodev";
+        efiSupport = true;
+        useOSProber = true;
+        theme = inputs.nixos-grub-themes.packages.${pkgs.system}.hyperfluent;
+        extraEntries = ''
+          menuentry "Reboot" {
+              reboot
+          }
+          menuentry "Poweroff" {
+              halt
+          }
+        '';
+      };
     };
 
     # Bootloader GRUB theme, configure below
@@ -63,14 +72,14 @@ in {
     };
 
     # Appimage Support
-    binfmt.registrations.appimage = {
-      wrapInterpreterInShell = false;
-      interpreter = "${pkgs.appimage-run}/bin/appimage-run";
-      recognitionType = "magic";
-      offset = 0;
-      mask = "\\xff\\xff\\xff\\xff\\x00\\x00\\x00\\x00\\xff\\xff\\xff";
-      magicOrExtension = "\\x7fELF....AI\\x02";
-    };
+    # binfmt.registrations.appimage = {
+    #   wrapInterpreterInShell = false;
+    #   interpreter = "${pkgs.appimage-run}/bin/appimage-run";
+    #   recognitionType = "magic";
+    #   offset = 0;
+    #   mask = "\\xff\\xff\\xff\\xff\\x00\\x00\\x00\\x00\\xff\\xff\\xff";
+    #   magicOrExtension = "\\x7fELF....AI\\x02";
+    # };
 
     plymouth.enable = true;
   };
