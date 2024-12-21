@@ -58,6 +58,7 @@
       "workbench.startupEditor" = "none";
       "workbench.colorTheme" = "Dracula Theme";
       "window.menuBarVisibility" = "toggle";
+      "extensions.ignoreRecommendations" = true;
       # "vim.normalModeKeyBindingsNonRecursive" = [{
       #   "before" = [ "<space>" ];
       #   "commands" = [ "whichkey.show" ];
