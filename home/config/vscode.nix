@@ -70,6 +70,7 @@
       "[python]" = {
         "editor.defaultFormatter" = "ms-python.black-formatter";
       };
+      "editor.minimap.enabled" = false;
     };
 
     mutableExtensionsDir = true;
