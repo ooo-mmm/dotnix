@@ -33,7 +33,7 @@
     meld
     glow
     inkscape
-    (nerdfonts.override { fonts = [ "FiraCode" ]; })
+    nerd-fonts.fira-code
     gcc
     gdu
     wakelan

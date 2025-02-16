@@ -1,12 +1,12 @@
 { pkgs, inputs, ... }:
 let
   # Yazi plugins repository
-  plugins = pkgs.fetchFromGitHub {
-    owner = "yazi-rs";
-    repo = "plugins";
-    rev = "06e5fe1c7a2a4009c483b28b298700590e7b6784";
-    hash = "sha256-jg8+GDsHOSIh8QPYxCvMde1c1D9M78El0PljSerkLQc=";
-  };
+  # plugins = pkgs.fetchFromGitHub {
+  #   owner = "yazi-rs";
+  #   repo = "plugins";
+  #   rev = "06e5fe1c7a2a4009c483b28b298700590e7b6784";
+  #   hash = "sha256-jg8+GDsHOSIh8QPYxCvMde1c1D9M78El0PljSerkLQc=";
+  # };
 
   # Catppuccin Mocha palette
   rosewater = "#f5e0dc";
@@ -35,14 +35,17 @@ let
   base = "#1e1e2e";
   mantle = "#181825";
   crust = "#010101";
-in {
+in
+{
   programs.yazi = {
     enable = true;
-    package = inputs.yazi.packages.${pkgs.system}.default;
+    # package = inputs.yazi.packages.${pkgs.system}.default;
 
-    plugins = { full-border = "${plugins}/full-border.yazi"; };
-
-    initLua = ../dotfiles/yazi/init.lua;
+    # plugins = {
+    #   full-border = "${plugins}/full-border.yazi";
+    # };
+    #
+    # initLua = ../dotfiles/yazi/main.lua;
 
     keymap = {
       manager.prepend_keymap = [
@@ -61,14 +64,18 @@ in {
 
     theme = {
       manager = {
-        cwd = { fg = "${teal}"; };
+        cwd = {
+          fg = "${teal}";
+        };
 
         # Hovered
         hovered = {
           fg = "${base}";
           bg = "${blue}";
         };
-        preview_hovered = { underline = true; };
+        preview_hovered = {
+          underline = true;
+        };
 
         # Find
         find_keyword = {
@@ -122,7 +129,9 @@ in {
 
         # Border
         border_symbol = "│";
-        border_style = { fg = "${overlay1}"; };
+        border_style = {
+          fg = "${overlay1}";
+        };
 
         # Highlighting
         syntect_theme = "~/.config/bat/themes/CatppuccinMocha.tmTheme";
@@ -168,45 +177,83 @@ in {
         };
 
         # Permissions
-        permissions_t = { fg = "${blue}"; };
-        permissions_r = { fg = "${yellow}"; };
-        permissions_w = { fg = "${red}"; };
-        permissions_x = { fg = "${green}"; };
-        permissions_s = { fg = "${overlay1}"; };
+        permissions_t = {
+          fg = "${blue}";
+        };
+        permissions_r = {
+          fg = "${yellow}";
+        };
+        permissions_w = {
+          fg = "${red}";
+        };
+        permissions_x = {
+          fg = "${green}";
+        };
+        permissions_s = {
+          fg = "${overlay1}";
+        };
       };
 
       input = {
-        border = { fg = "${blue}"; };
+        border = {
+          fg = "${blue}";
+        };
         title = { };
         value = { };
-        selected = { reversed = true; };
+        selected = {
+          reversed = true;
+        };
       };
 
       select = {
-        border = { fg = "${blue}"; };
-        active = { fg = "${pink}"; };
+        border = {
+          fg = "${blue}";
+        };
+        active = {
+          fg = "${pink}";
+        };
         inactive = { };
       };
 
       tasks = {
-        border = { fg = "${blue}"; };
+        border = {
+          fg = "${blue}";
+        };
         title = { };
-        hovered = { underline = true; };
+        hovered = {
+          underline = true;
+        };
       };
 
       which = {
-        mask = { bg = "${surface0}"; };
-        cand = { fg = "${teal}"; };
-        rest = { fg = "${overlay2}"; };
-        desc = { fg = "${pink}"; };
+        mask = {
+          bg = "${surface0}";
+        };
+        cand = {
+          fg = "${teal}";
+        };
+        rest = {
+          fg = "${overlay2}";
+        };
+        desc = {
+          fg = "${pink}";
+        };
         separator = ";  ";
-        separator_style = { fg = "${surface2}"; };
+        separator_style = {
+          fg = "${surface2}";
+        };
       };
 
       help = {
-        on = { fg = "${pink}"; };
-        exec = { fg = "${teal}"; };
-        desc = { fg = "${overlay2}"; };
+        on = {
+          fg = "${pink}";
+        };
+        exec = {
+          fg = "${teal}";
+        };
+        desc = {
+          fg = "${overlay2}";
+        };
         hovered = {
           bg = "${surface2}";
           bold = true;

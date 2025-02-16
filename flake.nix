@@ -11,13 +11,21 @@
     };
 
     # Yazi file manager
-    yazi.url = "github:sxyazi/yazi";
+    # yazi.url = "github:sxyazi/yazi";
   };
 
-  outputs = { self, nixpkgs, home-manager, yazi, ... }@inputs:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      home-manager,
+      # yazi,
+      ...
+    }@inputs:
     let
       inherit (self) outputs;
-    in {
+    in
+    {
       homeConfigurations = {
         "v" = home-manager.lib.homeManagerConfiguration {
           pkgs = nixpkgs.legacyPackages.aarch64-darwin;
