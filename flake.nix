@@ -10,6 +10,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nixvim.url = "github:ooo-mmm/lazyvim-nixvim";
+    nixvim.inputs.nixpkgs.follows = "nixpkgs";
+
     # Yazi file manager
     # yazi.url = "github:sxyazi/yazi";
   };
@@ -19,6 +22,7 @@
       self,
       nixpkgs,
       home-manager,
+      nixvim,
       # yazi,
       ...
     }@inputs:

@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 {
   imports = [
     ./bat.nix
@@ -37,6 +37,7 @@
     gcc
     gdu
     wakelan
+    inputs.nixvim.packages.aarch64-darwin.nvim
   ];
 
   fonts = {

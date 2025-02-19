@@ -3,6 +3,7 @@
   programs.helix = {
     enable = true;
     package = pkgs.helix;
+    defaultEditor = true;
     settings = {
       theme = "dracula_at_night";
       editor = {

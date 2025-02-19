@@ -21,7 +21,7 @@
       backupFileExtension = "hm-bk";
       # Shell
       BROWSER = "brave";
-      EDITOR = "nvim";
+      EDITOR = "hx";
       TERMINAL = "iterm2";
       TERM = "xterm-256color";
       HISTFILE = "$XDG_DATA_HOME/history";
