@@ -17,8 +17,9 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" = {
-    device = "/dev/disk/by-uuid/f44a6c8f-450f-4026-84a1-a7bfa669a9ff";
-    fsType = "ext4";
+    device = "/dev/disk/by-uuid/614d54ac-4bf5-467d-833đ-d3fa90cb7a6c";
+    fsType = "btrfs";
+		options = [ "subvol=@" ];
   };
 
   fileSystems."/boot" = {
@@ -34,11 +35,6 @@
   fileSystems."/media/hdd" = {
     device = "/dev/disk/by-label/data";
     fsType = "ntfs";
-  };
-
-  fileSystems."/media/x40" = {
-    device = "/dev/disk/by-label/x40";
-    fsType = "btrfs";
   };
 
   swapDevices = [ ];
