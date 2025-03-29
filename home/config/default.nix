@@ -36,7 +36,6 @@
     glow
     inkscape
     gdu
-    citrix_workspace
   ];
 
   programs = {

@@ -23,12 +23,11 @@
     podman.enable = lib.mkForce false;
     docker = {
       enable = true;
-      enableNvidia = true;
       daemon.settings = {
         # enables pulling using containerd, which supports restarting from a partial pull
         # https://docs.docker.com/storage/containerd/
         "features" = { "containerd-snapshotter" = true; };
-        data-root = "/media/x40/docker_data";
+        data-root = "/media/data/docker_data";
       };
 
       # start dockerd on boot.

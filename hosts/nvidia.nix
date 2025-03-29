@@ -14,7 +14,8 @@
       libva-utils
     ];
   };
-  # hardware.nvidia-container-toolkit.enable = true;
+ 
+  hardware.nvidia-container-toolkit.enable = true;
 
   hardware.nvidia = {
     # Modesetting is required.
