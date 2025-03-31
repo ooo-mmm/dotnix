@@ -20,6 +20,12 @@
     oci-containers = { backend = "podman"; };
   };
 
+  systemd.tmpfiles.rules = [
+    # Ensure podman-store and podman-run directories exist
+    "d /media/data/podman-store 0755 v users -"
+    "d /media/data/podman-run 0755 v users -"
+  ];
+
   environment.systemPackages = with pkgs; [
     dive # look into docker image layers
     podman-tui # status of containers in the terminal
