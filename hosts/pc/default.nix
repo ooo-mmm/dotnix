@@ -1,6 +1,6 @@
 { ... }: {
   imports =
-    [ ../os.nix ../docker.nix ./montiors.nix ./hardware-configuration.nix ];
+    [ ../os.nix ../podman.nix ./montiors.nix ./hardware-configuration.nix ];
   networking.interfaces.enp6s0.wakeOnLan.enable = true;
 
   networking.firewall = { allowedTCPPorts = [ 21 ]; };
