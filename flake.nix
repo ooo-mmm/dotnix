@@ -16,11 +16,6 @@
 
     # Yazi file manager
     yazi.url = "github:sxyazi/yazi";
-
-    walls = {
-      url = "github:ooo-mmm/wallpapers";
-      flake = false;
-    };
   };
 
   outputs = { self, nixpkgs, home-manager, yazi, ... }@inputs:
