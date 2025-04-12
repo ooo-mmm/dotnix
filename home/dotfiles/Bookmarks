@@ -1,0 +1,1148 @@
+{
+   "checksum": "6ecf48c93af05298c674c97de2d6ed6a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13377094803254583",
+               "date_last_used": "13378323609850802",
+               "guid": "2cb0723e-ea4f-42d4-aebe-62a3060e1cc5",
+               "id": "5",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Generating a docker image with nix",
+               "type": "url",
+               "url": "https://fasterthanli.me/series/building-a-rust-service-with-nix/part-11"
+            }, {
+               "date_added": "13378752616756781",
+               "date_last_used": "13380115649092414",
+               "guid": "374131d7-2ed0-4c47-ad9d-263dda99a0e1",
+               "id": "18",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "avirias/Grey at dev",
+               "type": "url",
+               "url": "https://github.com/avirias/Grey/tree/dev"
+            }, {
+               "date_added": "13380115682386781",
+               "date_last_used": "0",
+               "guid": "d3ad24e9-bfb0-4d5f-9d66-f01dfd3b06aa",
+               "id": "51",
+               "name": "artificialguybr (ArtificialGuy/JV.K)",
+               "type": "url",
+               "url": "https://huggingface.co/artificialguybr"
+            }, {
+               "date_added": "13379441185000331",
+               "date_last_used": "13382982441803599",
+               "guid": "50e3bbc8-e6df-4ffa-88fb-070275a1621f",
+               "id": "48",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Making Optical Logic Gates using Interference - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=pS1zAAD1nXI"
+            }, {
+               "date_added": "13382976515065556",
+               "date_last_used": "0",
+               "guid": "f44ea87e-15c0-4a5a-9c77-20f7902f5541",
+               "id": "90",
+               "name": "jesseduffield/lazydocker: The lazier way to manage everything docker",
+               "type": "url",
+               "url": "https://github.com/jesseduffield/lazydocker"
+            }, {
+               "date_added": "13382982502957458",
+               "date_last_used": "0",
+               "guid": "012bc465-3705-403d-b812-61ad40c1272e",
+               "id": "91",
+               "name": "How are holograms possible? - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=EmKQsSDlaa4"
+            }, {
+               "date_added": "13383560933721249",
+               "date_last_used": "13387834341335826",
+               "guid": "9aff9dec-9d5a-409c-8537-d42c24b784ca",
+               "id": "93",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "omerxx/dotfiles",
+               "type": "url",
+               "url": "https://github.com/omerxx/dotfiles/"
+            }, {
+               "date_added": "13383590429447584",
+               "date_last_used": "0",
+               "guid": "97c9a0ec-82a1-4040-8186-587e2c45d706",
+               "id": "94",
+               "name": "Free AI Portrait Generator Online",
+               "type": "url",
+               "url": "https://remaker.ai/features/ai-portrait/"
+            }, {
+               "date_added": "13380133316682785",
+               "date_last_used": "13380142335780290",
+               "guid": "e0ef974a-bb79-4ac8-9160-ff9d3fdd8308",
+               "id": "61",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ADP",
+               "type": "url",
+               "url": "https://online.apac.adp.com/signin/v1/?APPID=ADPVISTA&productId=ff803a24-0ee0-47fc-e053-f282530bfabe&returnURL=https://www.vista.adp.com/in/&callingAppId=ADPVISTA&TARGET=-SM-http://www.vista.adp.com/in/v6/ess/dashboard"
+            }, {
+               "date_added": "13380997345274922",
+               "date_last_used": "13387662603552461",
+               "guid": "9cf23b29-5ab9-4580-aa87-c67c5ab5e794",
+               "id": "76",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Free Youtube Transcript Generator by Tactiq.io",
+               "type": "url",
+               "url": "https://tactiq.io/tools/youtube-transcript"
+            }, {
+               "date_added": "13384432478510556",
+               "date_last_used": "0",
+               "guid": "0cfb048b-9868-4ccf-996e-0273cc23878c",
+               "id": "101",
+               "name": "Introduction | Hyperswitch",
+               "type": "url",
+               "url": "https://docs.hyperswitch.io/"
+            }, {
+               "date_added": "13385205554500719",
+               "date_last_used": "0",
+               "guid": "51b9c28d-f32e-499a-b878-160b49d13177",
+               "id": "117",
+               "name": "Video Game Hacking using Kotlin/Native by Ignat Beresnev - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=lwFNdphmZbE"
+            }, {
+               "date_added": "13385385132369606",
+               "date_last_used": "0",
+               "guid": "d1e6cce5-6356-4a62-82c9-a11a711d89fe",
+               "id": "128",
+               "name": "Enterprise - NixOS Wiki",
+               "type": "url",
+               "url": "https://wiki.nixos.org/wiki/Enterprise"
+            }, {
+               "date_added": "13385489433437873",
+               "date_last_used": "0",
+               "guid": "db59833c-8865-4513-9df8-511fc3910704",
+               "id": "131",
+               "name": "5 things I wish I knew before learning Rust - YouTube",
+               "type": "url",
+               "url": "https://m.youtube.com/watch?v=EYCBm0xAWow"
+            }, {
+               "date_added": "13386370837746392",
+               "date_last_used": "0",
+               "guid": "d1ac99e7-b6f3-4054-bba4-bc3b194a9af3",
+               "id": "165",
+               "name": "Growing Roots with WPO - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=KZX0kHSfD78"
+            }, {
+               "date_added": "13386502359978631",
+               "date_last_used": "0",
+               "guid": "c1de7592-f692-4d3e-acc9-addb62dbaab5",
+               "id": "173",
+               "name": "SHARGE Disk - SD001",
+               "type": "url",
+               "url": "https://in.sharge.com/products/sharge-disk"
+            }, {
+               "date_added": "13388067292467120",
+               "date_last_used": "0",
+               "guid": "f147fec1-9d56-4642-b04d-91725e0e71c5",
+               "id": "216",
+               "name": "Brilliant - Mobile Engineer (Android focused)",
+               "type": "url",
+               "url": "https://jobs.lever.co/brilliant/85cc6385-54d7-41fa-a82a-f65f0122237a/apply"
+            }, {
+               "date_added": "13388067468658609",
+               "date_last_used": "13388148077785538",
+               "guid": "a51d54c9-dd83-4a6d-abcd-4f36d88ea333",
+               "id": "217",
+               "name": "Brilliant - Software Engineer (Senior or Staff)",
+               "type": "url",
+               "url": "https://jobs.lever.co/brilliant/9fd7333a-6625-475b-b03c-bddb1ea4aa64"
+            } ],
+            "date_added": "13378846547117653",
+            "date_last_used": "0",
+            "date_modified": "13388067468658609",
+            "guid": "53d4f374-4d1b-4147-b48d-bb4fb0888c4f",
+            "id": "19",
+            "name": "bms",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13380118264033533",
+               "date_last_used": "0",
+               "guid": "662be4f3-41c9-4770-af7a-6f540cfcf47a",
+               "id": "59",
+               "name": "mediapipe-samples/examples/pose_landmarker/ios at main · google-ai-edge/mediapipe-samples",
+               "type": "url",
+               "url": "https://github.com/google-ai-edge/mediapipe-samples/tree/main/examples/pose_landmarker/ios"
+            }, {
+               "date_added": "13380116692299521",
+               "date_last_used": "0",
+               "guid": "5f9cc133-1654-404c-b054-d79d2182f19a",
+               "id": "55",
+               "name": "ooo-mmm/quickpose-react-native-pose-estimation: Quickly add MediaPipe Pose Estimation and Detection to your React Native app. Enable powerful features in your app powered by the body or hand.",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/quickpose-react-native-pose-estimation"
+            }, {
+               "date_added": "13380116007018406",
+               "date_last_used": "0",
+               "guid": "707ba66e-2f84-4d1e-b6da-3d37d8aabb36",
+               "id": "53",
+               "name": "ooo-mmm/example-ios-squat-counter",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/example-ios-squat-counter"
+            }, {
+               "date_added": "13380116050281560",
+               "date_last_used": "0",
+               "guid": "af5cf748-bddd-4f07-a7c8-a7d2ab018d20",
+               "id": "54",
+               "name": "ooo-mmm/example-ios-range-of-motion",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/example-ios-range-of-motion"
+            }, {
+               "date_added": "13380116733518363",
+               "date_last_used": "0",
+               "guid": "990652f2-9c1d-4c0d-a677-e71943606a75",
+               "id": "56",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ooo-mmm/quickpose-ios-sdk: Quickly add MediaPipe Pose Estimation and Detection to your iOS app. Enable powerful features in your app powered by the body or hand.",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/quickpose-ios-sdk"
+            }, {
+               "date_added": "13380116749853348",
+               "date_last_used": "0",
+               "guid": "03bdf20f-afa8-4925-814f-87bdfa2b952b",
+               "id": "57",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ooo-mmm/FitCount: Build an AI fitness counter and timer app with our end-to-end demo using QuickPose iOS SDK for Pose Estimation/Detection.",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/FitCount"
+            }, {
+               "date_added": "13380120085578171",
+               "date_last_used": "0",
+               "guid": "5f7ed3ef-5fae-483e-b790-57aab2f42ca5",
+               "id": "60",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Setup guide for Android  |  Google AI Edge  |  Google AI for Developers",
+               "type": "url",
+               "url": "https://ai.google.dev/edge/mediapipe/solutions/setup_android"
+            }, {
+               "date_added": "13381763069494784",
+               "date_last_used": "0",
+               "guid": "cc4b98c1-4988-47e8-ae69-e8e931817ed1",
+               "id": "80",
+               "name": "How to develop an AI app with a local model in Kotlin Multiplatform | Blog",
+               "type": "url",
+               "url": "https://www.thedroidsonroids.com/blog/ai-app-development-with-kotlin-multiplatform"
+            }, {
+               "date_added": "13381763088312161",
+               "date_last_used": "0",
+               "guid": "e96594d9-d776-407f-9573-f7b65d873151",
+               "id": "81",
+               "name": "Adapting MediaPipe Demos for Kotlin Multiplatform: LLM Inference | 2BAB's Blog",
+               "type": "url",
+               "url": "https://2bab.me/en/blog/2024-09-01-on-device-model-integration-kmp/"
+            }, {
+               "date_added": "13385385145938869",
+               "date_last_used": "0",
+               "guid": "d5f12c69-98b2-48ee-9eb5-fd90cf089b5b",
+               "id": "129",
+               "name": "DataHub: Popular metadata architectures explained",
+               "type": "url",
+               "url": "https://www.linkedin.com/blog/engineering/data-management/datahub-popular-metadata-architectures-explained"
+            }, {
+               "date_added": "13385385416517561",
+               "date_last_used": "0",
+               "guid": "0d0a7b2d-c524-4d11-a2e7-b75335700acf",
+               "id": "130",
+               "name": "minimal-kotlin-nix-example/maven-repo.nix at main · owickstrom/minimal-kotlin-nix-example",
+               "type": "url",
+               "url": "https://github.com/owickstrom/minimal-kotlin-nix-example/blob/main/maven-repo.nix"
+            }, {
+               "date_added": "13385667600621519",
+               "date_last_used": "0",
+               "guid": "29d56992-88c2-45ec-a0a1-edde66ab5ddf",
+               "id": "133",
+               "name": "I replaced my entire tech stack with Postgres... - YouTube",
+               "type": "url",
+               "url": "https://m.youtube.com/watch?v=3JW732GrMdg"
+            }, {
+               "date_added": "13386276019863124",
+               "date_last_used": "0",
+               "guid": "6957f0f0-d490-4442-bb18-17b3bf74c064",
+               "id": "163",
+               "name": "minimal-android-nix-example/README.md at main · tmcl/minimal-android-nix-example",
+               "type": "url",
+               "url": "https://github.com/tmcl/minimal-android-nix-example/blob/main/README.md"
+            }, {
+               "date_added": "13387659344880379",
+               "date_last_used": "0",
+               "guid": "c3a9b5b1-228a-4e09-82d9-ded5eb316c27",
+               "id": "196",
+               "name": "RepNet: Counting Repetitions in Videos",
+               "type": "url",
+               "url": "https://research.google/blog/repnet-counting-repetitions-in-videos/"
+            }, {
+               "date_added": "13387659352661669",
+               "date_last_used": "0",
+               "guid": "e9931d9b-0e48-41cf-a596-4e7e71ced94a",
+               "id": "197",
+               "name": "On-device, Real-time Body Pose Tracking with MediaPipe BlazePose",
+               "type": "url",
+               "url": "https://research.google/blog/on-device-real-time-body-pose-tracking-with-mediapipe-blazepose/"
+            }, {
+               "date_added": "13387659361729363",
+               "date_last_used": "0",
+               "guid": "dcafddc0-d466-46d5-ae30-5b560eb60e81",
+               "id": "198",
+               "name": "Pose classification options  |  ML Kit  |  Google for Developers",
+               "type": "url",
+               "url": "https://developers.google.com/ml-kit/vision/pose-detection/classifying-poses#4_integrate_with_the_ml_kit_quickstart_app"
+            }, {
+               "date_added": "13387659368578722",
+               "date_last_used": "0",
+               "guid": "836fe9e4-fcea-4323-9650-faa8c6efd3d9",
+               "id": "199",
+               "name": "Google Colab",
+               "type": "url",
+               "url": "https://colab.research.google.com/drive/1z4IM8kG6ipHN6keadjD-F6vMiIIgViKK"
+            }, {
+               "date_added": "13387659384045513",
+               "date_last_used": "0",
+               "guid": "ae0a2d32-c3f4-4887-90ea-01249346f3d0",
+               "id": "200",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "nicknochnack/MediaPipePoseEstimation",
+               "type": "url",
+               "url": "https://github.com/nicknochnack/MediaPipePoseEstimation/tree/main"
+            }, {
+               "date_added": "13387659396495802",
+               "date_last_used": "0",
+               "guid": "9e621094-1546-46a8-8705-467746c1692d",
+               "id": "201",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Pose landmark detection guide  |  Google AI Edge  |  Google AI for Developers",
+               "type": "url",
+               "url": "https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker"
+            }, {
+               "date_added": "13387659402978768",
+               "date_last_used": "0",
+               "guid": "8139d21c-53c0-4120-ad04-e4244736f73f",
+               "id": "202",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "mediapipe/docs/solutions/pose_classification.md at master · ooo-mmm/mediapipe",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/mediapipe/blob/master/docs/solutions/pose_classification.md"
+            }, {
+               "date_added": "13387659407079169",
+               "date_last_used": "0",
+               "guid": "6b88ff9f-efc3-43b6-afa9-f54916f0b6e9",
+               "id": "203",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ooo-mmm/pose_estimation: Human pose estimation with #mediaPipe 🏃‍♀️ 🤸‍♂️. #getting_started",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/pose_estimation"
+            } ],
+            "date_added": "13380115951650907",
+            "date_last_used": "0",
+            "date_modified": "13387659407079169",
+            "guid": "f163988a-27dd-438b-b7b3-409e8eb6e41b",
+            "id": "52",
+            "name": "trainer",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13384171069873365",
+               "date_last_used": "13384438164628839",
+               "guid": "9ffa4540-db87-41b6-a8c8-ec8324c2c6ca",
+               "id": "97",
+               "name": "Provider: Kubernetes - opentofu/kubernetes - OpenTofu Registry",
+               "type": "url",
+               "url": "https://search.opentofu.org/provider/opentofu/kubernetes/latest"
+            }, {
+               "date_added": "13384171115140082",
+               "date_last_used": "0",
+               "guid": "fe326cca-af35-4263-bbc9-a7b90b171b43",
+               "id": "98",
+               "name": "Kubernetes with OpenTofu: A Guide to Being Fully Open Source",
+               "type": "url",
+               "url": "https://everythingdevops.dev/kubernetes-with-opentofu-a-guide-to-being-fully-open-source/"
+            }, {
+               "date_added": "13384433917943506",
+               "date_last_used": "0",
+               "guid": "040f15cf-bf56-42f8-93fe-b24b968dcd7f",
+               "id": "104",
+               "name": "LocalStack — AWS in your machine and for free. It’s a dream come true. | by Afonso Alcantara | Medium",
+               "type": "url",
+               "url": "https://alcantara-afonso.medium.com/localstack-aws-in-your-machine-and-for-free-its-a-dream-come-true-94437dc1c48"
+            }, {
+               "date_added": "13384437126304887",
+               "date_last_used": "0",
+               "guid": "164e46ff-4456-4e47-a992-f0786ec6c6af",
+               "id": "109",
+               "name": "Host a static website locally using Simple Storage Service (S3) and Terraform with LocalStack | Docs",
+               "type": "url",
+               "url": "https://docs.localstack.cloud/tutorials/s3-static-website-terraform/"
+            }, {
+               "date_added": "13384698186735775",
+               "date_last_used": "0",
+               "guid": "430604a4-8b9e-47d4-9a1b-36099a74dc6e",
+               "id": "111",
+               "name": "docker-compose -> services-flake for `run-mobility-stack` by shivaraj-bh · Pull Request #3718 · nammayatri/nammayatri",
+               "type": "url",
+               "url": "https://github.com/nammayatri/nammayatri/pull/3718/files"
+            }, {
+               "date_added": "13384698273887723",
+               "date_last_used": "0",
+               "guid": "46b2fa84-04b5-4a90-9836-e1557b33aac6",
+               "id": "112",
+               "name": "Kubernetes - NixOS Wiki",
+               "type": "url",
+               "url": "https://nixos.wiki/wiki/Kubernetes"
+            }, {
+               "date_added": "13384698280887047",
+               "date_last_used": "0",
+               "guid": "d8b1b276-db77-4d62-a8a8-61b7984c8d02",
+               "id": "113",
+               "name": "pdtpartners/nix-snapshotter: Brings native understanding of Nix packages to containerd",
+               "type": "url",
+               "url": "https://github.com/pdtpartners/nix-snapshotter"
+            }, {
+               "date_added": "13384698537969944",
+               "date_last_used": "0",
+               "guid": "7bcd68e3-a08a-4295-be3f-ab07950941ce",
+               "id": "114",
+               "name": "argoproj/argo-cd: Declarative Continuous Deployment for Kubernetes",
+               "type": "url",
+               "url": "https://github.com/argoproj/argo-cd?tab=readme-ov-file"
+            }, {
+               "date_added": "13384698568427212",
+               "date_last_used": "0",
+               "guid": "4e146e86-2b79-4141-b2ee-6cb62c4bb8f9",
+               "id": "115",
+               "name": "DeterminateSystems/nix-to-kubernetes: An example of deploying Nix-built Docker images to Kubernetes.Not act",
+               "type": "url",
+               "url": "https://github.com/DeterminateSystems/nix-to-kubernetes"
+            } ],
+            "date_added": "13384171014233594",
+            "date_last_used": "0",
+            "date_modified": "13384698568427212",
+            "guid": "15251b1d-770d-47e5-8469-f6b5278c1407",
+            "id": "96",
+            "name": "kube",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13382540583612362",
+               "date_last_used": "0",
+               "guid": "9ac46095-3a06-473f-a6d0-c8bc5ae1b087",
+               "id": "87",
+               "name": "Run DeepSeek-R1 Dynamic 1.58-bit",
+               "type": "url",
+               "url": "https://unsloth.ai/blog/deepseekr1-dynamic"
+            }, {
+               "date_added": "13382540590579012",
+               "date_last_used": "0",
+               "guid": "7a390dc7-c03a-4881-a5e8-22e5fe6c5b56",
+               "id": "88",
+               "name": "Unsloth - Dynamic 4-bit Quantization",
+               "type": "url",
+               "url": "https://unsloth.ai/blog/dynamic-4bit"
+            }, {
+               "date_added": "13384367799377446",
+               "date_last_used": "13385681374820150",
+               "guid": "2494e16f-4788-4567-97e5-ed951a842f12",
+               "id": "100",
+               "name": "hunyuan 3d - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=hunyuan%203d&ie=utf-8&oe=utf-8"
+            } ],
+            "date_added": "13382540574197787",
+            "date_last_used": "0",
+            "date_modified": "13385677361192023",
+            "guid": "0ab662af-d99c-40ff-91e6-450c34a6ab48",
+            "id": "86",
+            "name": "ai",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13380488869422140",
+               "date_last_used": "13380489973993566",
+               "guid": "6324e6a2-7074-47e9-be42-ea09fd3e89d7",
+               "id": "66",
+               "name": "ooo-mmm/MusicApp-KMP: This is a music player app built using Compose Multiplatform UI and KMP that works on Android, iOS, Desktop, and Web platforms.",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/MusicApp-KMP"
+            }, {
+               "date_added": "13380488871891077",
+               "date_last_used": "13380489971331680",
+               "guid": "59c787b7-d438-47a4-a5a2-9b50aef2aca8",
+               "id": "67",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ooo-mmm/Pokedex-kmp: Pokedex - a Kotlin Multiplatform app, built with Compose multiplatform, Coroutines, Flow, Koin, Ktor, SqlDelight, Decompose, MVIKotlin, and Material 3 based on MVI architecture",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/Pokedex-kmp"
+            }, {
+               "date_added": "13380488878085404",
+               "date_last_used": "13380489966416709",
+               "guid": "59aebf87-0158-413b-8a01-f7c5931a3fb2",
+               "id": "68",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ooo-mmm/Todometer-KMP: A meter to-do list built with Compose UI Multiplatform, Wear Compose, SQLDelight, Koin Multiplatform, Glance, ...",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/Todometer-KMP"
+            }, {
+               "date_added": "13380488885728321",
+               "date_last_used": "13385385467076127",
+               "guid": "f85cee31-ac98-4046-8a68-a2980f90a9eb",
+               "id": "69",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ooo-mmm/TravelApp-KMP: JetBrains Compose Multiplatform UI App (Android, iOS, Desktop, Web). MVVM - Kotlin MultiPlatform (KMP)",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/TravelApp-KMP"
+            }, {
+               "date_added": "13380489014709671",
+               "date_last_used": "0",
+               "guid": "a1b7ece3-d5b7-42dc-bfd0-31dbb4a35beb",
+               "id": "70",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ooo-mmm/Presently-kmp",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/Presently-kmp"
+            }, {
+               "date_added": "13380489955868225",
+               "date_last_used": "0",
+               "guid": "1486d42c-7161-4400-a144-c50545e45a72",
+               "id": "71",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ooo-mmm/recipe-app: Recipe App in Compose Multiplatform (KMP) targeting Android, iOS, Web and Desktop.",
+               "type": "url",
+               "url": "https://github.com/ooo-mmm/recipe-app"
+            }, {
+               "date_added": "13380407860424475",
+               "date_last_used": "13385306964710289",
+               "guid": "6a38d7ff-0ef0-4dec-81ce-b538b53bc0a3",
+               "id": "63",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Create your Compose Multiplatform app | Kotlin Multiplatform Development Documentation",
+               "type": "url",
+               "url": "https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-multiplatform-create-first-app.html#examine-the-project-structure"
+            }, {
+               "date_added": "13380648311248221",
+               "date_last_used": "13381349517668367",
+               "guid": "98b53e76-11eb-4da4-b5a7-ef11af7b921d",
+               "id": "73",
+               "name": "Integration with the UIKit framework | Kotlin Multiplatform Development Documentation",
+               "type": "url",
+               "url": "https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-uikit-integration.html#what-s-next"
+            }, {
+               "date_added": "13380648315554416",
+               "date_last_used": "13381692446826942",
+               "guid": "652654e3-d1ed-4eb7-bc84-ac51182a9f8b",
+               "id": "74",
+               "name": "Integration with the SwiftUI framework | Kotlin Multiplatform Development Documentation",
+               "type": "url",
+               "url": "https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-swiftui-integration.html"
+            } ],
+            "date_added": "13380488842326591",
+            "date_last_used": "0",
+            "date_modified": "13384171058023651",
+            "guid": "042c5842-7da4-4d97-97d7-037eac5bfe50",
+            "id": "65",
+            "name": "kmp-sample",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13384433909028760",
+               "date_last_used": "0",
+               "guid": "4354a408-1e04-4e29-907f-2fd88ddd4751",
+               "id": "103",
+               "name": "Dioxus | Fullstack crossplatform app framework for Rust",
+               "type": "url",
+               "url": "https://dioxuslabs.com/learn/0.6/guide/component/"
+            } ],
+            "date_added": "13384433901910712",
+            "date_last_used": "0",
+            "date_modified": "13384433909028760",
+            "guid": "342188b3-02b0-4728-bbe7-13cfde9a9e7f",
+            "id": "102",
+            "name": "ui",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13384435974216151",
+               "date_last_used": "0",
+               "guid": "addfb3b3-7a15-4707-8a32-b2c7b16b93a6",
+               "id": "106",
+               "name": "Hip Hop and Shamisen Harmony: Beats for Concentration and Creative Flow - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=9iKJpL5sSiM"
+            }, {
+               "date_added": "13384436300422663",
+               "date_last_used": "13387838005364155",
+               "guid": "6b96f0a4-fb1c-4c41-90ea-73b6383ef690",
+               "id": "107",
+               "name": "TWO LANES - Live Performance (Piano Set) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=ca_cKWWzZgs"
+            }, {
+               "date_added": "13384436600192783",
+               "date_last_used": "0",
+               "guid": "1dd1966b-1e7c-41f2-9da4-3eb2eccd0891",
+               "id": "108",
+               "name": "Live Looping Techno A.I. Can't do: Insane Crowd Energy in Berlin with Juno 106 and Didgeridoo - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=1I9enMpcR1A"
+            }, {
+               "date_added": "13385679396690340",
+               "date_last_used": "0",
+               "guid": "7d6c0f00-6861-4d0e-a228-e53bc452f1f3",
+               "id": "138",
+               "name": "Death Metal X Violin Symphonic – A Dark and Majestic Fusion 🎻⚡💀 - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=qwHyfcCvBFQ"
+            }, {
+               "date_added": "13385679733806916",
+               "date_last_used": "0",
+               "guid": "e291b5c6-5c24-403d-857c-5df2ce1379a2",
+               "id": "140",
+               "name": "RAVANA RUDRA VEENA by Divine Music - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=jYnubAMWWs0"
+            } ],
+            "date_added": "13384435968489771",
+            "date_last_used": "0",
+            "date_modified": "13385679733806916",
+            "guid": "f2dbe8bb-323c-4368-a031-d61a5070345c",
+            "id": "105",
+            "name": "music",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13385206536659880",
+               "date_last_used": "0",
+               "guid": "d09bef9f-ee08-4ffe-b7db-b34a009fe1ea",
+               "id": "120",
+               "name": "amir20/dozzle: Realtime log viewer for docker containers.",
+               "type": "url",
+               "url": "https://github.com/amir20/dozzle"
+            }, {
+               "date_added": "13385206601176288",
+               "date_last_used": "13386060503490189",
+               "guid": "23c82a4f-01b6-4665-845d-c524d0e8007b",
+               "id": "121",
+               "name": "Stirling-Tools/Stirling-PDF: #1 Locally hosted web application that allows you to perform various operations on PDF files",
+               "type": "url",
+               "url": "https://github.com/Stirling-Tools/Stirling-PDF"
+            }, {
+               "date_added": "13385206689758165",
+               "date_last_used": "0",
+               "guid": "5f742f7d-b5c3-4912-ae09-98f8f36977d8",
+               "id": "122",
+               "name": "C4illin/ConvertX: 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
+               "type": "url",
+               "url": "https://github.com/C4illin/ConvertX"
+            }, {
+               "date_added": "13385206708425027",
+               "date_last_used": "0",
+               "guid": "10def8b9-ac46-4711-bbf0-9ad43205c107",
+               "id": "123",
+               "name": "CorentinTh/it-tools: Collection of handy online tools for developers, with great UX.",
+               "type": "url",
+               "url": "https://github.com/CorentinTh/it-tools"
+            }, {
+               "date_added": "13385206789223989",
+               "date_last_used": "0",
+               "guid": "b7c91093-cefb-4b6c-bf2a-05768c7cf09f",
+               "id": "124",
+               "name": "librespeed/speedtest: Self-hosted Speed Test for HTML5 and more. Easy setup, examples, configurable, mobile friendly. Supports PHP, Node, Multiple servers, and more",
+               "type": "url",
+               "url": "https://github.com/librespeed/speedtest"
+            }, {
+               "date_added": "13385206821357319",
+               "date_last_used": "0",
+               "guid": "9af51829-cebd-45b3-bc24-63e3694a393e",
+               "id": "125",
+               "name": "excalidraw/excalidraw: Virtual whiteboard for sketching hand-drawn like diagrams",
+               "type": "url",
+               "url": "https://github.com/excalidraw/excalidraw"
+            } ],
+            "date_added": "13385206533625753",
+            "date_last_used": "0",
+            "date_modified": "13387830514990794",
+            "guid": "4669dde3-83b4-4310-8123-aecd0592f2ba",
+            "id": "119",
+            "name": "self-hosted",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13385679350222478",
+               "date_last_used": "13386626594784900",
+               "guid": "5a0a4508-fd2c-48cb-b298-a8d3d9fb9bff",
+               "id": "137",
+               "name": "alibaba/animate-anything: Fine-Grained Open Domain Image Animation with Motion Guidance",
+               "type": "url",
+               "url": "https://github.com/alibaba/animate-anything"
+            }, {
+               "date_added": "13385677318909107",
+               "date_last_used": "13385677441879500",
+               "guid": "7fe05d04-d632-4036-93dd-f3118aeeb04a",
+               "id": "134",
+               "name": "wcandillon/remotion-fireship: Fireship video made with React",
+               "type": "url",
+               "url": "https://github.com/wcandillon/remotion-fireship/tree/master"
+            }, {
+               "date_added": "13385677361192023",
+               "date_last_used": "0",
+               "guid": "a534c628-d056-47a1-944d-dd6c990adf60",
+               "id": "135",
+               "name": "remotion-dev/remotion: 🎥 Make videos programmatically with React",
+               "type": "url",
+               "url": "https://github.com/remotion-dev/remotion"
+            }, {
+               "date_added": "13385679573039351",
+               "date_last_used": "13386626781886679",
+               "guid": "d15f1a67-b74f-4bcf-ad40-e159289ab2d7",
+               "id": "139",
+               "name": "stabilityai/stable-video-diffusion-img2vid · Hugging Face",
+               "type": "url",
+               "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid"
+            }, {
+               "date_added": "13385681387100711",
+               "date_last_used": "13386537965095497",
+               "guid": "9d4ad0b6-a58c-4d44-8d53-d41d4f1ba1c2",
+               "id": "141",
+               "name": "Hunyuan3D-2.0 - a Hugging Face Space by tencent",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/tencent/Hunyuan3D-2"
+            }, {
+               "date_added": "13385682266273176",
+               "date_last_used": "13386626879982427",
+               "guid": "ff375467-cf7e-4b4a-a917-d262366148f0",
+               "id": "143",
+               "name": "stabilityai/stable-diffusion-3.5-large · Hugging Face",
+               "type": "url",
+               "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large"
+            }, {
+               "date_added": "13385682345140866",
+               "date_last_used": "13385683166446167",
+               "guid": "db0fe8bb-bc2a-442c-9873-2b8815b394c5",
+               "id": "144",
+               "name": "black-forest-labs/FLUX.1-dev · Hugging Face",
+               "type": "url",
+               "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev"
+            }, {
+               "date_added": "13385682465115919",
+               "date_last_used": "0",
+               "guid": "20c92407-739a-4e91-9861-46f6b2448f2f",
+               "id": "145",
+               "name": "Wan-AI/Wan2.1-I2V-14B-720P · Hugging Face",
+               "type": "url",
+               "url": "https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-720P"
+            }, {
+               "date_added": "13385682599067680",
+               "date_last_used": "0",
+               "guid": "f9eeabfa-4c65-4b46-8949-d568d4303c1f",
+               "id": "146",
+               "name": "stabilityai/stable-video-diffusion-img2vid-xt · Hugging Face",
+               "type": "url",
+               "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt"
+            }, {
+               "date_added": "13385682732946251",
+               "date_last_used": "0",
+               "guid": "a46cc4df-ffc8-4cd5-beb8-038693c03105",
+               "id": "147",
+               "name": "stabilityai/stable-fast-3d · Hugging Face",
+               "type": "url",
+               "url": "https://huggingface.co/stabilityai/stable-fast-3d"
+            }, {
+               "date_added": "13385683521580443",
+               "date_last_used": "13386441863692375",
+               "guid": "eb0e7ded-b636-47da-a1e1-88b39652bf71",
+               "id": "149",
+               "name": "Wan 2.1 + ComfyUI: Qwen Open Source Low VRAM Video Generation Pipeline Local Install - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=orhLPlVRUMc"
+            }, {
+               "date_added": "13385683691347494",
+               "date_last_used": "0",
+               "guid": "f400a6d8-1453-41ee-862e-d95da6994e16",
+               "id": "150",
+               "name": "CogVideoX-5B - a Hugging Face Space by THUDM",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/THUDM/CogVideoX-5B-Space"
+            }, {
+               "date_added": "13385684074510209",
+               "date_last_used": "13386626233791440",
+               "guid": "a88a0fac-56d6-49d9-acbd-b149eafcf570",
+               "id": "152",
+               "name": "LTX-Video-Playground - a Hugging Face Space by Lightricks",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/Lightricks/LTX-Video-Playground"
+            }, {
+               "date_added": "13385684185010658",
+               "date_last_used": "13386626461891152",
+               "guid": "3e0b445a-7df0-4031-835e-3f1336105f85",
+               "id": "153",
+               "name": "FLUX.1 [dev] - a Hugging Face Space by black-forest-labs",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev"
+            }, {
+               "date_added": "13385684400583826",
+               "date_last_used": "0",
+               "guid": "ad79b973-91eb-47c3-82c0-4da0e38b0656",
+               "id": "154",
+               "name": "ElevenLabs TTS - a Hugging Face Space by elevenlabs",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/elevenlabs/tts"
+            }, {
+               "date_added": "13385684544370695",
+               "date_last_used": "0",
+               "guid": "601bae76-ad01-438b-8a66-e598a5076ade",
+               "id": "155",
+               "name": "Background Removal - a Hugging Face Space by not-lain",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/not-lain/background-removal"
+            }, {
+               "date_added": "13385684582352567",
+               "date_last_used": "0",
+               "guid": "02d3be75-6bf1-4136-9fa2-dd5444cd2b55",
+               "id": "156",
+               "name": "Flux.1-dev Upscaler - a Hugging Face Space by jasperai",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/jasperai/Flux.1-dev-Controlnet-Upscaler"
+            }, {
+               "date_added": "13385684612183310",
+               "date_last_used": "0",
+               "guid": "e15a981d-5b9a-49a9-8c0c-faba4a9a5f91",
+               "id": "157",
+               "name": "Stable Diffusion 3.5 Large - a Hugging Face Space by stabilityai",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/stabilityai/stable-diffusion-3.5-large"
+            }, {
+               "date_added": "13385684725352314",
+               "date_last_used": "0",
+               "guid": "3dfb194a-376b-405c-83bd-f2ff0019cc88",
+               "id": "158",
+               "name": "Video Background Removal - a Hugging Face Space by innova-ai",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/innova-ai/video-background-removal"
+            }, {
+               "date_added": "13385684764635370",
+               "date_last_used": "0",
+               "guid": "4183d0a2-eab1-4385-8315-11b52ef87296",
+               "id": "159",
+               "name": "DimensionX - a Hugging Face Space by fffiloni",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/fffiloni/DimensionX"
+            }, {
+               "date_added": "13386168299671058",
+               "date_last_used": "0",
+               "guid": "16ae281c-7f87-488b-8bc6-413a3da4b665",
+               "id": "161",
+               "name": "Control MULTIPLE CONSISTENT CHARACTERS + CAMERA with this FREE AI Workflow [Blender + ComfyUI] - YouTube",
+               "type": "url",
+               "url": "https://m.youtube.com/watch?v=PZVs4lqG6LA"
+            }, {
+               "date_added": "13386168338306347",
+               "date_last_used": "0",
+               "guid": "740a6c27-926a-4c05-8e9b-888939a53605",
+               "id": "162",
+               "name": "Shoot EPIC MOVIES with this FREE AI Tool! [ComfyUI Tutorial + Free Workflow] - YouTube",
+               "type": "url",
+               "url": "https://m.youtube.com/watch?v=gHI6PjTkBF4"
+            }, {
+               "date_added": "13386525653232050",
+               "date_last_used": "0",
+               "guid": "9cc933ae-a55a-413b-a2c1-c576dc2b7bbf",
+               "id": "174",
+               "name": "Video Translator With Voice Cloning And Subtitles - a Hugging Face Space by theneos",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/theneos/Video-Translator-with-Voice-Cloning-and-Subtitles"
+            }, {
+               "date_added": "13386537869109144",
+               "date_last_used": "0",
+               "guid": "79fafccc-346b-4b0c-8354-956251165a76",
+               "id": "175",
+               "name": "TRELLIS - a Hugging Face Space by JeffreyXiang",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/JeffreyXiang/TRELLIS"
+            }, {
+               "date_added": "13386539691599856",
+               "date_last_used": "13386608925600563",
+               "guid": "807abfd4-9c40-4e36-9d64-45a6704e55f6",
+               "id": "176",
+               "name": "TangoFlux - a Hugging Face Space by declare-lab",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/declare-lab/TangoFlux"
+            }, {
+               "date_added": "13386545456972390",
+               "date_last_used": "13386608920503934",
+               "guid": "98077fd2-fa37-4591-976c-5da281f7be4b",
+               "id": "177",
+               "name": "Free-View Expressive Talking Head Video Editing - a Hugging Face Space by sky24h",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/sky24h/Free-View_Expressive_Talking_Head_Video_Editing"
+            }, {
+               "date_added": "13386545463306589",
+               "date_last_used": "0",
+               "guid": "906e3784-f073-4e35-acdc-f11e1f7c1355",
+               "id": "178",
+               "name": "Skyreels A1 Talking Head - a Hugging Face Space by Skywork",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/Skywork/skyreels-a1-talking-head"
+            }, {
+               "date_added": "13386546638279214",
+               "date_last_used": "0",
+               "guid": "694ceb81-55d9-4504-b552-b4fdd89d9025",
+               "id": "179",
+               "name": "DiffuEraser Demo - a Hugging Face Space by fffiloni",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/fffiloni/DiffuEraser-demo"
+            }, {
+               "date_added": "13386546951366925",
+               "date_last_used": "0",
+               "guid": "2bf99eb5-b003-4701-af60-17b16dbc4b84",
+               "id": "180",
+               "name": "MimicMotion - a Hugging Face Space by fffiloni",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/fffiloni/MimicMotion"
+            }, {
+               "date_added": "13386547299767665",
+               "date_last_used": "0",
+               "guid": "84b1b8a6-f5d0-4af0-9009-e5e71ce1ea39",
+               "id": "182",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Consistent Character - a Hugging Face Space by fffiloni",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/fffiloni/consistent-character"
+            }, {
+               "date_added": "13386626013038458",
+               "date_last_used": "0",
+               "guid": "926b06fb-4e35-4557-8f22-6e7e1883c44e",
+               "id": "184",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Character 360 - a Hugging Face Space by aki-0421",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/aki-0421/character-360"
+            }, {
+               "date_added": "13386626022338408",
+               "date_last_used": "0",
+               "guid": "086e5373-2f3f-44f6-a94f-6233786a6ef8",
+               "id": "185",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Flux with Character Consistancy - a Hugging Face Space by ashen0209",
+               "type": "url",
+               "url": "https://huggingface.co/spaces/ashen0209/Flux-Character-Consistancy"
+            } ],
+            "date_added": "13385679344980521",
+            "date_last_used": "0",
+            "date_modified": "13386626022338408",
+            "guid": "b1999af9-3d14-4a96-a091-ff4b72667c78",
+            "id": "136",
+            "name": "videoGenAutomation",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13386446961519899",
+               "date_last_used": "13387830501129802",
+               "guid": "4ab19a85-af6a-403b-936f-018355823217",
+               "id": "168",
+               "name": "Kanata Lab GAME - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/@kanatalabgame987/videos"
+            }, {
+               "date_added": "13386446978404960",
+               "date_last_used": "0",
+               "guid": "9cd7e584-ea52-488f-acd8-98ccbe6f4118",
+               "id": "169",
+               "name": "Project Kato - Auto Ducking - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=09kVXCh9GZg"
+            }, {
+               "date_added": "13386447016352742",
+               "date_last_used": "0",
+               "guid": "ac7a1a32-90ae-406b-9028-fa8f05f98852",
+               "id": "170",
+               "name": "ImagineDreams - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/@ImagineDreams/videos"
+            }, {
+               "date_added": "13386447047920477",
+               "date_last_used": "0",
+               "guid": "bfdeeca7-8bb5-476e-a2ab-9dcce2b9f4d0",
+               "id": "171",
+               "name": "I'm BACK in a FLASH!!! ...(again) | Propulsion Devlog - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=8Qs9kGb4_2s"
+            }, {
+               "date_added": "13387811270189780",
+               "date_last_used": "0",
+               "guid": "4cd8d36c-1be6-4cd6-8e59-116c85671505",
+               "id": "205",
+               "name": "Unreal Engine 4 Parkour Runner - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=v9cCdC-HdzQ"
+            } ],
+            "date_added": "13386446932436391",
+            "date_last_used": "0",
+            "date_modified": "13387811270189780",
+            "guid": "0783124f-491e-4ad8-8aa2-2672c728c61f",
+            "id": "167",
+            "name": "speedsterMotivations",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13387834687178424",
+               "date_last_used": "13387835286136732",
+               "guid": "a5a53367-b4fa-4677-8db7-33aed2e72a0b",
+               "id": "208",
+               "name": "ptrumpis/snap-camera-server: An alternative, self-hosted solution that allows you to continue using Snap Camera with all Snapchat filters after its shutdown on January 25, 2023.",
+               "type": "url",
+               "url": "https://github.com/ptrumpis/snap-camera-server"
+            }, {
+               "date_added": "13387834704926651",
+               "date_last_used": "0",
+               "guid": "28df1a7c-a8a6-49da-b2c2-f9237e54b950",
+               "id": "209",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Snap Camera",
+               "type": "url",
+               "url": "https://github.com/snapcamera"
+            }, {
+               "date_added": "13387834754276830",
+               "date_last_used": "0",
+               "guid": "79f875c2-02c6-46c6-b5f9-83f346898cfa",
+               "id": "210",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "jeeliz/jeelizFaceFilter: Javascript/WebGL lightweight face tracking library designed for augmented reality webcam filters. Features : multiple faces detection, rotation, mouth opening. Various integration examples are provided (Three.js, Babylon.js, FaceSwap, Canvas2D, CSS3D...).",
+               "type": "url",
+               "url": "https://github.com/jeeliz/jeelizFaceFilter"
+            }, {
+               "date_added": "13387835578808199",
+               "date_last_used": "0",
+               "guid": "753c55a1-4a06-4967-a3d8-1c6eca967bc4",
+               "id": "211",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "TowhidKashem/snapchat-clone: 👻 A Snapchat clone built with React and Redux. Written in Typescript. Styled with SASS. Tested with Cypress, Jest and Enzyme. Linted with Eslint and formatted with Prettier!",
+               "type": "url",
+               "url": "https://github.com/TowhidKashem/snapchat-clone?tab=readme-ov-file"
+            }, {
+               "date_added": "13387842088295865",
+               "date_last_used": "0",
+               "guid": "53f237ec-d283-4e97-bbe5-0ee1b25012de",
+               "id": "212",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ollama-app-for-Android-/pubspec.yaml at main · SMuflhi/ollama-app-for-Android-",
+               "type": "url",
+               "url": "https://github.com/SMuflhi/ollama-app-for-Android-/blob/main/pubspec.yaml"
+            }, {
+               "date_added": "13387842091812290",
+               "date_last_used": "0",
+               "guid": "a363aecf-3f23-451f-bd5c-c54779a16e74",
+               "id": "213",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "davidmigloz/langchain_dart: Build LLM-powered Dart/Flutter applications.",
+               "type": "url",
+               "url": "https://github.com/davidmigloz/langchain_dart"
+            }, {
+               "date_added": "13387842094729106",
+               "date_last_used": "0",
+               "guid": "80d41724-ffbf-4858-ae3e-78cd37f886e1",
+               "id": "214",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "gemma3:1b",
+               "type": "url",
+               "url": "https://ollama.com/library/gemma3:1b"
+            } ],
+            "date_added": "13387834683164723",
+            "date_last_used": "0",
+            "date_modified": "13387842094729106",
+            "guid": "3d2d4e7a-1659-4c8f-a788-f2223f6d723e",
+            "id": "207",
+            "name": "reeltor",
+            "type": "folder"
+         } ],
+         "date_added": "13377085488684099",
+         "date_last_used": "0",
+         "date_modified": "13387834683165104",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13377085488684100",
+         "date_last_used": "0",
+         "date_modified": "13380117004137096",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13377085488684100",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgrQ68ixv2UAAAAAEgAaWERmdFU0cGNrOUlxbG5PVWl5YlZHc0RtQzQ2c05rU0VYdFpkdWJhYjZvclRTN2dNMVdUaDFpOFFUd0FqNFlEeHNYdXhuSHZvbUpsbzF0YjZQaWM0SlJnPT0qGFpvN3pPcmhXUWRnaFpMeUxNdWxPS2c9PUgDEqsBCNkBEqUBChxJbmx1RElzcTVyS1I3aWM1bWp6RlhlL2dCRnM9EiQ2OTc0NTVjNC0xN2QzLTQyN2YtOGQyNS1kMmE1NGMwMzVlNDMYACABKAEw6LXk2N8yOPWarLLfMkDTr+TY3zJKHHRSRnpiSHFGME9aUHkvWEZUeFFubnlabDBqYz1aISIf///+MmlxWks1eCtMck9ldUUxWVZiekxGcE5iQWVzPWUlyYx7EqsBCNgBEqUBChxtalZmN1pVdnlvRzhZNkdpbEFjZDVpaU90aUk9EiQ4MTgzYTQ4Mi00NWFiLTQ1MzEtYjlmNi02OWU2NjRkZDRiNDkYACABKAEw4rXk2N8yOLm6obLfMkDTr+TY3zJKHEc3bStpSVJ0Vzc5MCtXNDFZZXNsVDZlNGdiYz1aISIf///9OFI3VFczNVIwbVpTOXQ3VksvV2RFdGVUbE1VPWUlyYx7EqwBCLQBEqYBChxlVEk2bmdkZjVVaG9uQ2JDSFJueDRZUDRsQmM9EiRjZDk3ZTYxYy05ZWIzLTQ4ZTEtYmJiOS0zYWZmMTg0MTdhODcYACACKAIw+ayn3dkyOMeZp93ZMkDImafd2TJKHGRtMHlLQm9pR0J3dGZEam8xWjlEczJKWkl4WT1aIiIg////+zBVUFA3UmVCNzNwT3NvV2dOSkZUZkgyenlTND1lhOF4jhKDAQgDEn8KHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGY2MTIxNGZmLTFhZDYtNGNhMC05YTc5LTg2MGJjNTMwMzdiOBgAIAAoADABOP/bmca+MkD/25nGvjJKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEqwBCLEBEqYBChxOLzNWTitla3U3UGp6czdyaTBUelExeUFYWU09EiRiNWI4ODk0NS1mNWM2LTRmYjQtYmM5ZC0yNGQ4MDI5ZGVkN2QYACACKAIw2ZLM3NkyOM3+y9zZMkDU/svc2TJKHE9ENCtxTC81ZE9lTk9XdUpBaEZKTk50ZTNVcz1aIiIg////3U1Nb0p2eTRpMDRpaWF6QXFjSnRDOHA5RjFzMD1lhOF4jhKoAQh7EqMBChx6bDhxOVphMXppQ09memdkUFJCTnF4RFJobWc9EiQwZDYzOGQ1NC02ZDRiLTQ2ZmEtODYwOS02YTNhN2EzMmQxMzYYACACKAIwq7ed3tQyOMmhnd7UMkDOoZ3e1DJKHDA4TnBjeit2VXJSSGVRUzZ4WEZRU1VMWnVKND1aHyId3Gs0WFJpWGYvZjBqN1BjTmRPMmhPSEhzeFo3dz1lyPM/uxKoAQgzEqMBChwyRFFHQm1VK3ZTZjdCeUFxaklaUUY0bC9nTW89EiQwZDZjNmE4YS1hMDk3LTQyOGMtYWE2MS0yMTI3N2I4MTEzYWYYACACKAIwt+3R4sEyONPY0eLBMkDY2NHiwTJKHGxZTWNRVGFYM3RLTXpXNzRqYkpML0p5ZVlXOD1aHyId/ncrSW1YSlBJUHFDY2NlRk9JUXF2NU16V2dBZz1lhOF4jhKqAQiWARKkAQocU2w2NmJTeFJ4NUNJU29hdEVwM1p0N1oxZk9VPRIkZjRiYjU0MWItNzVlMy00N2NhLTgzMjItOTc3MjFiMGYzYzIxGAAgAigCMLqT1sHWMjjT/tXB1jJA2P7VwdYyShxUSUlNa0x0Z3RhK011SWQ3RXpYdjNRSVEwR3c9WiAiHv/sbjkrUjJnYlptRWZPeTRpbjJuaFpIZFM3OU5JPWWE4XiOEqkBCJIBEqMBChxqYzVCeG9JU3RlUDJ5cC9pbzdoWVZBK0F0NmM9EiQ4Yjc5NTY1Ny01ZmZlLTRkZDktYmM1MC02OGM3MTAzN2MwNGQYACACKAIwtL2TwdYyOJypk8HWMkCiqZPB1jJKHGNRY1BqVXlOOVJPQlRwRHlJdWQvcTZ1eU8yTT1aHyId/jIyODg4YzNXUk1KK003YTQ4YXEraXJ2SFhBcz1lhOF4jhKoAQhsEqMBChxVaDZKN1lxdXY4NzhNMGpwd3haNFF6bG9ETGc9EiQyODI3MDFhNy0yNmYwLTRhOTItOGJlNy1hNDFkN2VjYmYwMDIYACACKAIwr+CB79EyOIHLge/RMkCEy4Hv0TJKHEVsNXFvZXN6akhRVTYvelVPNXN1SG5HZkM1Yz1aHyIdu1lyNC9vb29TZFZZNmcwSjlMUitZa3VUWmtJST1l/ZyMShKrAQiuARKlAQocQ21WakJpWXRKRld3eGxLUTl2ZGgzN3J3Y1pjPRIkZGVjMWRlZjUtYzhiOC00ZmZhLWE2NzQtNjM1NjQxZDMzYmIyGAAgAigCMNKYndPZMjjwoZPT2TJA96GT09kyShxjSEU2VzRqYlozcXJzc0JvMEhTbmV3Q1ZhNEk9WiEiH////mNCblA1QWVCUVdtQnFrdXAwQUNLbUhTaVJEcz1lhOF4jhKrAQiDARKlAQocenUyYS95Nm1DL2hFblJkYnlSNXN6VzZ4TUxBPRIkZGQ2MGMzYzktMWI1NS00Njc4LThjOTAtNDkwZDEyMTYxMWNlGAAgACgAMNfw9PrVMjjitoXl1TJA1/D0+tUyShxEUFdHTTExeW5PZzAwcEJKbVZtRk56eDNsajQ9WiEiH///6StrbXBYRkxDZ0xxcm9jTzJWMzExS01acUZETT1le5xBGhKqAQiYARKkAQocbEVWcEFWbWRCdnZ0R2gxbEptdjV1NE9EK3YwPRIkNzFmNDFiMDEtN2E1My00MmU3LWIxM2EtODkxM2UwMzhhNWVmGAAgAigCMOLE7cHWMjiOsO3B1jJAlrDtwdYyShx4V1FVS25zZGNTRE4vK1R4YVR0RmJZQVpVZjA9WiAiHv/7TnpIbEJrVEYvMlArRU9vOE5hMmdCTWw5VUhrPWWE4XiOEqwBCLIBEqYBChxkOTRSNjNHaHRUWGxGdFlZQXJxY1ZJNkpVME09EiQwY2I3NDJlYi02N2UxLTQ3ZjctYWQzYS01YzgwNmMzNTU1NjAYACACKAIwkb3M3NkyOIqwzNzZMkCRsMzc2TJKHHRhOXZreVRibFZsOTlCYk5oV3NPOXFUTUFHUT1aIiIg////7mxxby9SaVpsS3BjQlIrUTR5d0dBSWREbEM4Zz1lhOF4jhKqAQjKARKkAQocaUUvdG9zWU9ZR3lVSCtEUUhUR0E2K0EwY3ZVPRIkMzZlZDM5OTItZGQ4Yi00MWVmLTg0YWItMzY5M2FkNjgxMWM2GAAgAigCMLiB4u/dMjjj7eHv3TJAhu7h790yShx6cEhoUS9TcEpPY3RaYlMzVDdwNjBXWnRzZkE9WiAiHv//a2lucDlLalJ2dXM1SUJ1TnR2WUE1WTJYNm1jPWXI8z+7EqgBCFASowEKHG9QV0J1N2h4ZCtsU0RWYUlyOXN6SXpvTEpJdz0SJDEzYjE2ZGFmLTQyZjktNDUzMi05NTJiLTk2ODZkNjEwYWY5MxgAIAIoAjCfsJb0xzI4uJyW9McyQMCclvTHMkoccVgybDlkYWtISDZpWndaZ3p3RVpHSWRMSk9JPVofIh37bTlnZk81V0pZMTJLeEFCZjUyQTE0Qndwb0NVPWWfZFqcEqoBCMgBEqQBChxqbmJ0UG4xQXhJOHErR05zU0RWRm91OU9ZTk09EiRiMTgwM2U3MS1mYmNlLTRhNzQtYmJlNy1lZmY1MGRkN2JmZWMYACACKAIwou3g790yOO3Z4O/dMkCS2uDv3TJKHGhjc1huRTdjT1BYKy9HRFRkay9FNlFkdzB4WT1aICIe//01Nm5nT0dtSE1KWXN0V1VoOXBZWGE3aDFabGM9ZcjzP7sSgwEIARJ/Chx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRkNzAyY2UyYi02NDQ1LTQxY2QtOWMyYS02MDYwMzU1N2EwY2UYACAAKAAwATj/25nGvjJA/9uZxr4yShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKoAQh8EqMBChwrM0I2WEx4bm93K3hCYlFZYmx1WE9WNG1PRms9EiRkYmI2ZGYwNC00Zjg4LTQwM2UtOTk2Yy0xNzM0MzU0OTc3YzUYACACKAIwr66i3tQyOOiYot7UMkDtmKLe1DJKHHo3dFluTTdFakZoZjdsODVhMUhsZ3VKVUZRND1aHyId7kdBZU9DZXZmOXBvaFh5YnBvTG1QS2F1WE1zaz1lyPM/uxKnAQg1EqIBChwzYUpheENKUUxTM0wxZlRBOXdCM1NhVDNtT2c9EiQ2MjVmYjQ1Ni01ODk0LTQ0M2ItYmQ0Yy1mMDIyZDM2NzViMDMYACACKAIwpMjl4sEyOOrA5eLBMkDywOXiwTJKHEczamVYSDBqckVzWU5YRmcvVk9pSis1aEZVbz1aHiIcb052WVl5Yy9XMkdnYnlZa3ArNG12bkVwMmtZPWXI8z+7EqwBCLABEqYBChxEYTMvN3ZCL1g5YnpuUHBKRHVKaTdGNERLbU09EiQxYTFmNzVjNy0zNmRlLTQ5YzMtOWM0Zi1kZTY3MGE2ZDhiODcYACACKAIwr6Ds2dkyONCM7NnZMkDRjOzZ2TJKHCtxMFliOE0rYXh2Y1kremJWcHNtYU50MTU1RT1aIiIg////ulprck0xYXZNWjZJeTFaeHlYdGFlTEdONzB4az1lhOF4jhKnAQg3EqIBChxVTERzSVFsZ2JlbU15TUJtL0htVE9xL2hGa0k9EiRkMTY0MTM2Ni03ZGFkLTQ5ZWUtOTY0ZS0zMjQ2YjZlYjc1NTEYACACKAIwzr+P48EyOMyqj+PBMkDRqo/jwTJKHFNwMGxxQm9GOHBscm1ZT1VTM0VoV3kySTN3OD1aHiIcM2FJVnZqVE5BSEdjL3NYQ1Z6aGxZN3FlVWxFPWXI8z+7EqkBCD0SpAEKHGkxZDd5MUJBSG45TXdxdThnYnc3L01rQzBpaz0SJDYwODg2ODc3LTdhN2EtNDIwYy05ZTMyLWVjNmY5NWE5OWFmZBgAIAMoAzCbnrTw0DI4y4CG68EyQOCJtPDQMkocNlpKZnRDMU14WG80R1NmZjdTWDNtWndXRnk0PVogIh7//XhZQ3lVOEtkNVJuTUc4ZzNaM0RXQVh3NnpBST1lAAAAABKrAQilARKlAQocRy9wWGgrUnY5YVMwTkpCNld1eVEvWEQ4bDNFPRIkY2IzMzRmMjItOTlmNS00NmJlLWEyNzMtM2NjZDdmNmVjZTI2GAAgAigCMNWfqonZMjjyiaqJ2TJA+YmqidkyShx4NlR0cjhvWjhPMXRJcGlYTVVqNzEwSTg0dG89WiEiH///9GFLTStGRUtpSkhac1pzNTN4dStnT2pBRUlKUT1l/ZyMShKsAQi2ARKmAQocUk5JeTU4NTR2SXI4K2FPOTYxWWlFQjdxTlQ0PRIkNWQ5MDkwMGUtNmRjMC00ZjAwLTk4NDQtYzg5MmQyMzU3OTE3GAAgAigCMO/OvN3ZMji4u7zd2TJAzbu83dkyShxHdThlVzU3dU5xNTJQY0hqRGJCNUdzUkgvZVk9WiIiIP////5CTVVKdUZUQVJnbGJDemVJVWQzSUhQb0lRejg9ZYTheI4SqQEIQRKkAQocdHB3c21oSTdoZTBzbkR4ekF5QVFvNlpWZmlVPRIkYzY5ZGY2MzEtMTI3ZS00YmE2LWI5MWUtNmM1NWE4M2ZkZjc0GAAgAigCMP/msfDQMjjZyMmUwzJAytKx8NAyShxvS0pGdStYUVh0OEtSZ2tRWGFqdDYweE5GSGs9WiAiHv/1ZmZkb0tIc2dETGErTS9zamgvSDd5N1pzbU5jPWUAAAAAEqoBCMsBEqQBChxLaFRIMlZDbmxnVDJvNjIxOGlVY3dkQU5IYTg9EiRiZTAxN2QyOC0wZDMwLTRlOTktYTI4My0xMzZmNDNlZTM1YTEYACACKAIwoKHi790yOOeN4u/dMkCLjuLv3TJKHGsyZnZKbHhjVXRlRHR0OFZKNzU4S2V3bFV4cz1aICIe//9wVm5mUWFCdVFuNzNCTTJYTG1GLzN1Nm5NbzA9ZcjzP7sSqAEIPxKjAQocZXdTMUpmaG1XenV5eVR1Qkp3NlRmcVpGUU9BPRIkMzg0YTVlN2YtYzQ2Ni00ODA2LTg2MGYtYmEwNGMzYjU0ZDM1GAAgAygDMP+qsvDQMjjK6frtwjJA55ay8NAyShx5OGxLL2xidFpPRC8xTVVXU2M1YzVQNURGLzA9Wh8iHfxpNHhxMVRJdkNBdisrcGgreHZpSm1DaUo1cUE9ZVGUlRUSqQEIaRKkAQoccm5GYW9aay9sZzdFRm5MUUlrY2R0YUV5KzNBPRIkM2U5ZTQ1YjgtYTMxZi00OTcwLWJjODQtNjRmNDQ3MmQzMmZlGAAgASgBMJKZ2+7RMjjqg9vu0TJA6oPb7tEyShwrOCtqRCtQNzEweFBZeTNNQkFKdUFKOUd0RW89WiAiHv/9YWlud2xNeENrdC85d1dGbHBhUDMxVFB4R2Y4PWUAAAAAEqcBCHkSogEKHHltVDJKcC9GTkNiWHpLZzR2ZGl3TUdYUVYvUT0SJDU4M2E4OWEzLWI2MzctNGE5Ni1iMWM2LTkzODAwNzFkZTQyYhgAIAQoBDC1wZfe1DI42NuW3tQyQPSsl97UMkocSmszYXF3VTJRbk5UZGE0dkJZZWducVBNYm1ZPVoeIhxzcVZNcUsrWmFrdTgrZ1dHbzJYVWNNcUdQS1k9ZcjzP7sSqAEIhwESogEKHEF0a2k1TnU1ZzVLOXdHbGkwVHdBMks5bkpRST0SJDZiM2U1M2U2LTk5ZjQtNGU4Yy05MDhlLWU3YmUwYjk0ZmU1YRgAIAMoAzD8hM6/1jI4qNDTvtYyQM7wzb/WMkocMExLd1pLSUNKWHBFbHdsUWtlOWlYZDVWU3hjPVoeIhxvd2ozUVU3NHhnRTl1WnVIejhWU2NTUGZxZE09ZcjzP7sSqwEInwESpQEKHHFRVXlpSzJhZzlMRkZqcUZHWE9vR0hlTEZqbz0SJGZmMGMyNzUxLWMwN2UtNDM0OC1iNGI3LTAwZTFmZmM1MDExMhgAIAIoAjDF1JfC1jI427+XwtYyQOO/l8LWMkocOFQ3Mk9vQUVTamtvVE14VGszME9HY3EzbkdvPVohIh////Q0cTgzNkVoMW9TSS90L0hqdmRJbkFpWUdaSkE9ZYTheI4SqQEIVhKkAQocY05UZTRJZXlIak5OUTU3K1VFcHo2MG9jdmhRPRIkNjdmZDQ3YzAtZWJiNS00MTNiLTg2MDctZWE5ODU1YTlkZDEyGAAgAigCMM/0svDQMjj1q/XmyjJAv+Cy8NAyShxGVVhCZW9LM0g2ejJWb3g4UWIzUTRwRXdrYjg9WiAiHv/yUlRiL1NlM3RiN001bUt4K1plZmlBc1l0QlBVPWUAAAAAEqoBCMUBEqQBChx0YmpPMjNhTm5iNW8wTW5semlta2oraUJOYmc9EiQ4NTI1YTEwNi03ZDgwLTQ4MGYtOTlhMC0xNDMxOTA5NmVkNDYYACACKAIws/je790yONbk3u/dMkDW5N7v3TJKHHV0VkFpSlR2cFNPMDJYUithbm1FdjQ0Mmg5ND1aICIe/+xWdVBlSTFUTEIzVWs1OHFDTG8zK0xmdThOMk09ZRAw/+QSqQEI1QESowEKHE5XZ3p0N0FTVHJLWnFpQklRRFNlM3pQNWZnOD0SJGYyNDhjMTNkLTY1YjAtNGM1MS04MjI1LWVjZDg1Y2ZmMWZiNhgAIAIoAjCHuvDG3jI4pabwxt4yQMCm8MbeMkocdEVrSGNmT3BKOGtONDRIaFVHL0JjS291Kzk0PVofIh37MUMxYlh1SVdRcUJvWXNrMW1HbS9pWTRiWm9ZPWXI8z+7EqwBCLMBEqYBChxkZEhiM0ZPNU4ySmxrV0ljSWNtQ25hRkE3TGs9EiRlMjUyNDQ0Yi0yZDRiLTQ2MDEtOGJhYi1mZjI3NWNkMWYwZWYYACACKAIw+ZeU3dkyOMeLlN3ZMkDLi5Td2TJKHFE4b3hVT1M1Tmh4RXVmTWZ6WGJ3UnNiRVpYND1aIiIg////92d1alN2b1czSDBBZWhTZUs2b3JYU2lxR1ZMdz1lhOF4jhKoAQh6EqMBChxha2lNd0h3WFJJTi93dnJNY2E2bUJiRVlTNnM9EiQ0OTRhNTQ1MS0yNTZjLTQ2MzctYTY2NC1lNDY1YzUzYmY1ZTUYACACKAIwuKWc3tQyON6PnN7UMkDjj5ze1DJKHFdMRytJcDhSMzlTNk1EeTdqRFErYTNFREVnRT1aHyIduVhTSEYwS0hVWkozRE9yejdJVEZ5WDdDWjg4ST1lyPM/uxKoAQhxEqMBChxzeU5zZnMvaGdObFpiMlhGNVRhS2UwQllobGc9EiQ1MGE2NTZlMy1lNWIyLTQ4MGQtODliNC05ZGM1ZmQxYWM5OGYYACACKAIw/bvl69IyOLen5evSMkC8p+Xr0jJKHDJxMHlzUzdpN0w3VDA5ZHdEclYyZ1ltT0RSaz1aHyId/WtDOUlWSS9qOUsrLzcybzF5OVB2M1AvN1pvTT1lyPM/uxKoAQg7EqMBChxwNkNIQWVZZzBmeGdiS3JlajZsb0lySmZENVU9EiRiMTM5YTBkOS03MDU1LTQxYWItYTBiYy0xMGEzNTBjOTZhMzYYACAEKAQw3eu6hMIyOOGh7+PBMkDs0rqEwjJKHFFKbDJFcWNNZG96ZGV2aGlZNGV4d3Z0ejFiYz1aHyIdGTlERllzd1VUbVE4aGtkSDkwUk5MUTJaZTJkTT1lyPM/uxKnAQhYEqIBChxCbVhWd1YycnExZldHYk4xRWtlT2hBenZoUnM9EiQ3ZTgxZGMzMS02YTY2LTQ5OTUtYWJhYy05ZDdmZTVhZGQzY2UYACACKAIwtrz25soyOPOr9ubKMkD5q/bmyjJKHDNpSjlPdlIvRDNuWDhQeG9OdHRNV2dsS2VRRT1aHiIcajhVaGxkYWYrTTljU0c5Q0l5NmpPeVBoR0pZPWWfIU6SEqcBCFcSogEKHHRnUlJEcmdSNVpDRHBNSmh1ZWxJS1lnK0lBcz0SJDVkMWY0YjM3LTYyNTctNGQwYi1iODI4LTQ4NjdkY2Y4MGEwNBgAIAIoAjC0i/bmyjI4vPX15soyQL319ebKMkocczE0SmZpWkxGbjA3eTNMd0hLTm8wRXdhY3l3PVoeIhxKR1VsOEFxdSswZE01dkJad0tGRWhWNzZVUXM9ZZ8hTpISqAEIbRKjAQoccjFpOWlBV01xbmExMGRIVHQwU2dLd0FFUUxzPRIkZTFhYTBhOWYtNmVhMC00Y2QzLWJhMmItZGY2ZWFiODI2YTc5GAAgAigCMP3toe/RMjih2aHv0TJAp9mh79EyShxGbURSazY4KzhTK3BzYnlOb0x5dm5zRHZmRGM9Wh8iHeg2ckxkNzVKZHJPTFZ5SHBLSnBPZDFwbEFCaU09ZWt0SNkSqAEIRRKjAQocZktrdFcyUkZ4R3NzOGZMSHRDWDNoZ3VtYk13PRIkYWViY2JjNTUtYWRmNy00NTBmLTlhMmUtMzBjMWE1ZDdkZWQ0GAAgAigCMLOwzJTDMjjgm8yUwzJA/JvMlMMyShxVd0FOSytDMnJscGIzVjJMdkRybHEyV0pwRDQ9Wh8iHe05V2pNZVNKT09PdkR4Ny9PNXdRb1RPMEZuc0k9ZcjzP7sSqAEISRKjAQocdkl3QnpodTUvU2NHaGVDUHh3VTBHVWVISFYwPRIkZTdmYjgyMWItYjkwYi00MzM0LWE3MDAtOGU0MmZlN2FmN2FmGAAgAygDMMn9sPDQMjjU487gwzJA7Oiw8NAyShxSa3BPWjAwaURmQm5RME42QVdJak02L0Rhb2M9Wh8iHf1FVnhWVWxrZVNNWFI5VzhCSitGOFBmVDBja289ZVGUlRUSqAEIiQESogEKHE8vUVZFVVQ4czZZbXFhbG5sa09OcHdLSnNjZz0SJDVmMDkyMmE1LTIyNjItNGI1My1iNzEwLWVjZTlhN2ExMTU1ZBgAIAIoAjD6l82/1jI4zoPNv9YyQM+Dzb/WMkocdUs2MWVjSE81bDRuK3l4RzJ2L0RKRkFCOFRnPVoeIhxkbmFZWXhVdkRYcy8vbk1QMVBVRllORW0zUlE9ZcjzP7sSqAEIRxKjAQocdEdQQThBVE4xMGY0ekxnSVEwSnVVNzRvRHFvPRIkYjIwZWJiZDYtN2EwNi00Mjk5LThjNzUtMzQ5NGY4NDFmMDRjGAAgAigCMMPYjZXDMjicxI2VwzJAucSNlcMyShx2OW1IMDRqVk5OT0hoY2tMVGNuNnZiY2dZRFU9Wh8iHftUWlBpcFRObitoaVE2eDQxeTNlM01jKy9iZHM9ZcjzP7sSqAEIaBKjAQocaU1adS94NzhySS92bWpIaDZCUU1VK2xaWUZzPRIkNzE2OTY2NDktZWEwMi00OTgwLWFmYTEtYjBlNmJiYTY2YjBmGAAgAigCMKqE3u3RMjj3793t0TJA+e/d7dEyShwxNmZYa1NHSlFYbVViYmtmeFd2ZEVhK1Vaa289Wh8iHdFsalBINnhTdE5IQU9BdnRSNlJOVE1KWXJqVXc9ZatNfMsSqQEIjAESowEKHERPNlk5Y096bEk4MzlkU09TWjU3ZkNlZzl0cz0SJDMzMGRlYzYyLWFiNGUtNGQ2ZC04OWM0LTBhYmI3ZGE2ZmI2NxgAIAIoAjDbzOS/1jI4r7jkv9YyQLO45L/WMkocVXhMcDJEWDhyWkpGSUsrUXNrcVhwYzZWQWFJPVofIh3ubVBXUmZmVlJIUFJCT2ZaSDBTMzhXTVV5cEc0PWX9nIxKEqgBCDgSowEKHDRMWDB6a1ZtTktoVzBpQ0RGYVZDR2lJeEovbz0SJDEyOWIzMjNmLTJlZTYtNGQ1My04NmY0LWY2NDI4NGI1ODZmYhgAIAIoAjCUgZLjwTI4z+yR48EyQOjskePBMkocc2RlMnRLall5UVRFV2pFLzEwMEFGRGlWeHk4PVofIh3bMjdJS2RlQjVBTWFBb1lxakdpMW1jM2kzb3gwPWXI8z+7EqsBCK0BEqUBChx4a2ZZRHFjMytPWEViejA3VFozS0Y1UzB0ems9EiQ3NDliODI2Zi1kMThhLTQyYzItYWY5ZS1mOGRlMTAzYmU3NzEYACAAKAAwp9yFyNkyOLLHhcjZMkCyx4XI2TJKHFpSTDBPVHo3Ri9WUTh3ZVRZbWo4S3o3YXhiOD1aISIf///6V04xdkFWcjBjZ2VRMGhBWWQrNlY0NUFjQjhZPWWG6AIUEqgBCEMSowEKHGVZODc2cW5YUHVzUXpzQmladzV2OHR3SjlSaz0SJGEyOGYwODBiLWY5YWItNDFlNy1iNWE2LThjMmVmYzBjZThiNRgAIAIoAjD3xcuUwzI406/LlMMyQPGvy5TDMkocWVFpRFl5YlVNMmRkN0hucDc3NmhHeFBxZkJBPVofIh20ZjFzZ041TXhoRUpDc0xJYjhMZ00vbnFGU3ZVPWXI8z+7EqkBCI0BEqMBChxqcGM4RXBvcmNBZ3VQQWwwUHNVUEVxZ2xwV009EiQ5NjYxNTY2YS1kODhhLTRmYjMtODVjNC02MWU2MjI3YTcyN2EYACACKAIw3brJwNYyONysycDWMkDdrMnA1jJKHDBXb1RNbUNXMEZFNUNhWDM1RklRK2NwOGd5MD1aHyId2zZ2R0hyNEc0TThleFlCamI5bzdZNFlWbW5ZUT1lhOF4jhKpAQhdEqQBChw5LytlL2c1c0NVZGFQa0VJcjB4R2ovbG5idjQ9EiQyY2ZiZjQxNi1lMjNkLTRiNDUtYmI3YS1hMjMxNDc3ZWEzNTkYACAFKAUw+qmXw94yONmSu83OMkDcpZfD3jJKHEVKdThVbEZkT09hZ3RBUDBBK01kbWtxUDhQdz1aICIe//Zua1EydHVvb2c4ckJkVk1NTy85U0taQ2RQNUU9ZcjzP7sSsQEIuQESqwEKHGNpUjZ3Tk16djFIQXNjOFVYelhhNDZsZU1uOD0SJDdlZGJkNmJmLWYyNzgtNDdjNC05YmZkLTQ1NjgzYTkyNmVlNRgAIAIoAjCZu4GD2jI4w6eBg9oyQN+ngYPaMkocMVlLWnF0ZjlTQmw2OFp6UzF5SnAya3p0QXRRPVonIiX/////AAAABLhpaU5rSVNoaURFWnhEWG4vL3BTcU9yR2x6YWc9ZYTheI4SqQEIZRKkAQoca0lBSHJVUUNyeXlobkVybHg4cW9qTmhpVy9BPRIkYWJiYjdiMTAtYjZiNi00YzhkLWFjMjUtMmIyMmUzOTgyNmNmGAAgAigCMNaWhu3RMjiugobt0TJAsYKG7dEyShxvOWtuK3JlTVVrVjl0QXEvRllpM1hWOG1oa289WiAiHv//T2E1bWVVL1hYSjdQYkR1dldzdE9Za3loMnVVPWWfQhkzEqgBCBISowEKHHYrWXQ1dWIrS0I5V0lXVkMrNmdzVCtCTk1jZz0SJDRhYmRlN2JhLTZiMWUtNDg1Yy05MzZiLThlODViM2E3OGRhYRgAIAEoATCcjKzGvjI404Osxr4yQNODrMa+MkocSGpIelExd1NhMW5CMHJXVkk0cFZvNnR2RzdNPVofIh3+bHhjeTlmd2JmL3NhdWw5SVFtblBJTEJPOFNJPWXI8z+7EqcBCEISogEKHFNRbHFjdUdlRDNQVmg2eUhObjZDc1JsaTQ1Yz0SJGY2ZWNhNjJlLTU0ZGItNDM1ZC1iOGYwLTg1N2I5MmEzYjBjNxgAIAIoAjCnsMuUwzI4r5zLlMMyQLicy5TDMkocVHpPSFpZTG5hRE5QNUJ1ajg4OXVqT0RHbmp3PVoeIhxoNDgrb0UwOWFobzI4MVg4RHpjcXQwVHJXckE9ZcjzP7sSpwEIZxKiAQocVjdtT01SYndqRithdG9nTFdZNk4vd1R5Sm80PRIkZGI5Mjc2MzMtNDQyZC00MTc4LWE1ODctNmMyNDdkN2FkMGIwGAAgAigCMM+/3e3RMjilqt3t0TJAqqrd7dEyShxtK3dPd1J0ZVhnSVFZbmtmSHU3Tko2RG5nelE9Wh4iHElNNEJnSFVJOFpPYmliQXY2RG00S0pnajh3dz1l9qHoIRKqAQjGARKkAQocL3JqcXVJQktmOFVpcUVEWURzTC9QcmlLR1RnPRIkNWM4MGRkMjgtNmM0Ny00OWUxLWI1MzctMDdjYjBiYWE1M2Y4GAAgAigCMJe/3+/dMjjBq9/v3TJAxKvf790yShxvcmpsd0RJQnBEcVFpYzBLbUdNRzVvMkFFZjQ9WiAiHv/2RWxGbGtLUlVoNkFrZWNwL1JQNURDb0t5aGpvPWVhZyE0EqkBCF4SpAEKHGFDcXpKeUozVWtScGxVSElnbTNqZU1zcjRkZz0SJGE5ZTRlNzdmLTIwZjUtNGJlYi1hMzcwLWFkYjRkYTQ0MjMxNBgAIAIoAjCpysPbzjI4h7bD284yQI22w9vOMkocV2VlTytuQlBjSjZYc0x6UW5TTnFsc0JZeGNVPVogIh7/+2ZPTitJZjVpbFRIcWZaY3lqSzdUT0wvaGVEZz1lxbOk9RKoAQg2EqMBChxGS0k1aHg5T1dBUmQzUFFQeWtsQzdMV291UDQ9EiRiZGViZWFmYS03N2IzLTQ3NmUtOTc5Mi02ZDQ3MDc5MDY5ZDIYACACKAIwuqfo4sEyOOmS6OLBMkDxkujiwTJKHCt2VzBtRThBeDNOVGp5Y1hoUnlKZ09xMFNHZz1aHyIdt1lYSEc0UGQrRUUrNXJDMmEvTW1KcHNKakVKdz1lyPM/uxKrAQihARKlAQocU09QUUZLb2FEY0wzM0tvVHExZTd1ajg0UUFBPRIkNmZkMzQwOTEtZDM4MC00NDhkLWJiMjEtOTgxZDYxOTZjOGIyGAAgACgAMMiU4KjYMjibkeCo2DJAm5HgqNgyShwzNFZlWFlGeDNpOEJlSm9pL1NsT1JMTmFEWE09WiEiH///+jdYbFl2ajR1cGZBeXdWcE5OTVdtVVFYaGVUTT1lAAAAABKrAQjPARKlAQocaXZrcVBZUWtaLytpNVNTREExZlU1US9EZGZzPRIkYWMwMjAwOWYtMTEyOS00ODQxLTlmMzMtOGUwZDdmN2Y1NzZiGAAgASgBMNihrMPeMjidjqzD3jJAnY6sw94yShxhcVNRRTlCeGM5bURJRXU0R2NqSnNLWExQVWM9WiEiH///7E04VXEvekhLNlU4MXpvUm5neG5PdjhHcEFuYz1lAAAAABKqAQiaARKkAQocemR2b1N1UndwbnJYS3k0NkN2YXBMNFJsSk40PRIkZjFjNjhkYWYtYjJlMi00Njg3LThlZTctMGNhYTllNjY3MzNlGAAgAigCMJa4gcLWMjjIo4HC1jJAyaOBwtYyShxPMThjblNQSURwSG93Y3YxV1RQdzFjZWZZUVE9WiAiHv/+VlVHcTkrUU9ydnU3c0hCQ1hGbjV3YWl0YzlRPWWE4XiOEqgBCEQSowEKHGJRdmxqYzNrK213alFRMDRFZnMzdHVUdzdtZz0SJGMyNWFhYTI4LWQ2ODEtNGQ1NC05OWJhLTQ3MzI5NTg0ZmRhZhgAIAIoAjCr9MuUwzI4heDLlMMyQJzgy5TDMkoceUI4cW15Q29ieUROWXN1anpGempxclEzMDEwPVofIh3aTURRWm9wMmdYcDZuVjlyNzBTN0ttMTFlRDNRPWXI8z+7EqkBCEwSpAEKHEpKV0FTc21GWDBPL2Jqais4U1MySG5jejE0bz0SJGNjODU2YThjLTdlNzUtNDIyOS04ZDRiLTdjYTdkYjZlZDIwNRgAIAQoBDDp/7Tw0DI4+4+Gh8UyQPb6tPDQMkocbU83MER5SHdybVVDUjNNM29EU3hETGFKd3pBPVogIh7//lJUaFVxc0p4aDZSNDExTURGdEVMYmd1dHdzZz1lf4tJphKpAQiFARKjAQocSWNnUnF1VnRZTFY4dnBVa01iTjl3b1VEbS9ZPRIkNDM5MGZmOWUtMTY1YS00ZmZlLThkYjQtOWNhOWUxYjY0MzQ3GAAgACgAMPCGgLrWMjj88f+51jJA/PH/udYyShw3UmNDd2VBN1pjemdxZkIxeXVYR3A5Rnh4RjQ9Wh8iHf9nWFdoMUg2amhZRGwvaUFLcGRJTFR6NGEyZW89ZQAAAAASqQEIigESowEKHEsvSGZqejd1djJ1Nzc3YnJvbDJzanlheDVMbz0SJDYyM2RkMWVhLTFmMjQtNDAxZS1hNDk2LTMwNmY5YzI1NjBjZRgAIAIoAjDtgtC/1jI40u7Pv9YyQNbuz7/WMkocUHNuWUY1QVhoYlp1ek5qZXJFdWE5NmpwMXQ0PVofIh3dRmFBOGlmOTRJTlpyM0NGM3FvOUhHZnIrWWhvPWX9nIxKEqgBCHASowEKHG13SUpMa3lud2t0VFFYbjFXR2xWT2pNUWw0UT0SJGJkMzAzZTQ5LTU1M2EtNGUwOC1hZjVjLWExYTk5NTI4Mjc4ZRgAIAIoAjCzgMX10jI44PDk69IyQLOAxfXSMkoca0xMWTdJR3NqTzQwMnFTL0crVllUVXN0VUZZPVofIh36M3N6NkRocjdSa3ZZZWhhV08yR2pUR2duNUI0PWWPvC3qEqcBCHgSogEKHGhxa05oQldDRXJlVlNHdmoxK0x1MG0xeE4zMD0SJDAyYmFkODI5LTExZTktNGI2NS1iYTZjLTEzMzZmNzliZWYwYhgAIAIoAjDz+JLe1DI41OOS3tQyQNnjkt7UMkocZ0d0QlUwWStNMXpvcDQzRzcwcU1INXNub2xvPVoeIhxRMHJQZHhyMHNvTVVvOGhkUXlzQlJWMDJxSGs9ZcjzP7sSqAEIRhKjAQocUnFwL0djb3dvaWt3REhFMStSM09qNmxuQkJzPRIkMDRmMDM5MjEtZGQ5Yy00NWFlLTg4ZjQtMDA3MTNiOTJhMWE5GAAgAigCMKqi1JTDMji3i9SUwzJA04vUlMMyShx6cGMrWFJRQ0I3STcrQTRxdzF5UmVaOGlNTFE9Wh8iHfYwa2dSRDVoRWhUNGZ3VzVNcEIwUkUvVlpNaWc9ZcjzP7sSqQEIYBKkAQocSE8wMldFblFkK0wzcVRTb2RKeFJ1ajRuNU9VPRIkYWJkMDVlOGQtYjdhMC00OGRkLTg0ZDQtMmFjNGY5YWM2MzkyGAAgAigCMIn8r/DQMjjbwK/w0DJA1+ev8NAyShxsWnVYZDdTVWxramc0ZERHQVVJT3dtbEtORkE9WiAiHv/wQXZYdHpBdUlNZHpUTXZVOTNSTkZsVUdxSVlBPWUAAAAAEqcBCGESogEKHGVkMlAxaDJHdmNKcDQvRHdZN1poZ1praitkUT0SJDAwYTJkNzU1LTY5ODgtNGYyNi1hOWQ5LTBlYzExMzdjYTdjNhgAIAIoAjCfirPw0DI4svOy8NAyQLfzsvDQMkocU20xNko5Vy9uTUVXK2dkZEJqSHFKdHJkWGc4PVoeIhxEelhVYkRaZ1lXUUFRMGlDUXFPbWg2TThSZUE9ZYfXolsSgwEIAhJ/ChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ1NjhkMjJhMC1mZmM2LTQxZTEtOTEzMi01ZDQxY2UwZDYyM2YYACAAKAAwATj/25nGvjJA/9uZxr4yShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKqAQiVARKkAQocWDRmVUJ3VFM1SUpsTDdMcDl1MkZ5bENuOUFNPRIkNTE0YzA4NDItYTliZi00MzY1LWJlNzYtNTIxOWE2ZjI5ZDMxGAAgAigCMMvpy8HWMjis0MvB1jJAsNDLwdYyShxJb1NHYndKdC8xMU5jdjdlbEFjTUZ0aFNYcGs9WiAiHv/ZRldZY0ptMXRVSnh4L1d6S2g2MVJQM0xPeXpVPWX9nIxKEqgBCGQSowEKHHhjMmZPKzg4MU9GcEdicUt0UU9WSmx3QXJTZz0SJGY1NGUyNmU0LTkwMzAtNDM2MC1iOTA3LTkzZjBlZmMzYmJmYhgAIAEoATCRlIvl0TI43KiaztEyQML/iuXRMkocUW8yT0x1dE9sZ3JheHJ3Q29SZ2ZSQjhLZTBRPVofIh21SldmYUJsSkhIUDVlUk12WlJYZG0ydUVsaWRjPWUQMP/kErABCLgBEqoBChwxWUsyeWh1cW5yZHJ1clNaRlZZeit2UXBlc2c9EiQ1MWFjMGQ5OS1iZTYxLTQ2NTItYWU2NS1kN2E5OWY2YjMyMmEYACACKAIw6PKAg9oyOO/egIPaMkCM34CD2jJKHGFwcUhrU0oxUlMyaThmTCtYdEtYY2ZGeUYxYz1aJiIk/////wAAAARxYlNCbTgvSVc3b0x5RlpGL0NFdUJDTG5hcTg9ZYTheI4SqQEI1AESowEKHE1GUDFadStsNkFZMVdDaFZqdXFaY1BYSnM4az0SJGM3ODk3YTgzLWNlN2QtNDVhNS1iOTJkLWVlZmU2MDkyZTI1OBgAIAIoAjDanvDG3jI46Irwxt4yQJqL8MbeMkoccC9TdjBhMXZSYUYzd2t6cS9ZRVhML2hLTm9vPVofIh32YWpubDJ3ZEkwWS9rdHRwdTJ3dnFHdGVmNUlnPWXI8z+7EqsBCIgBEqUBChxaTU4raFFhMHFxOEgvYjc0N1g4UWl5SjZGOWs9EiRmNDAzMjI0My1mMjYzLTQ3MzgtYWZkNS0zZTAxNmU5N2IzMGQYACABKAEw5u7Mv9YyONTazL/WMkDU2sy/1jJKHGY1aGoyOUFVaDlWams5cE5pREJ6dVN2RFB0Yz1aISIf//+wM08rRk1FRjVmN0VlbWhNUEhZNmxLbm5LSW1BPWUAAAAAEqcBCAUSogEKHDJDQUdzSXdhMXByRllMZFRoUDg3R2wyNk9KND0SJGFmMmE0NzAzLTllZWYtNDY5NS05NGM5LWVlMTM4Zjk1MjcyMxgAIAIoAjDsq7690jI404Osxr4yQLGXvr3SMkocZVl2OVR3QktuOFZRVk9NVWJvbWpPRnlMYjRnPVoeIhxRMWFuWXB5SVFQVEFpTnFwSlNlTkdMWTVxOVE9ZfwWxIcSqAEIcxKjAQocVnlyRXJYTXBIaDNWMXZqelZKNVRRQnZMMVE0PRIkNzk5ZGFmODktOTVlMy00NzkxLTk3MTMtN2E3MDFkYTE3Y2Q1GAAgAigCMKiC9+vSMjjr7fbr0jJA8e3269IyShxsOHA4M1c5Y093dDY0d2lUdDc2V0lKV0dZajA9Wh8iHf9FeUJDcmpwMTNlUDFwK2cwVUpxVE55R2Uwdms9ZcjzP7sSqgEIdRKlAQocWHhrdVpWK0I0Y1RYaFE0akUyOXJCbVJ4S0trPRIkOWE4N2MzMmQtYmZkNS00YzhjLWI0MDgtNmI5MGIxZmE3MTc5GAAgAigCMOD/1t3UMjjF6tbd1DJAyOrW3dQyShxKckVMVFYxVEtXc2diQ2xxR2xsVHZFY2VsRHM9WiEiH///p0hyZW9TTTMvYXhKbzBPR1U1Q0FoSm5qaE9EWT1l/ZyMShKpAQirARKjAQocQ0hlV2MwWjlWSnZtNW1VL2Yyb0dqb0JOendBPRIkOWUwNjkzZDMtZTkwYy00ZTc3LTk5NzYtOTZmNmRhYmZmMDI1GAAgAigCMPnd1a3ZMjjwydWt2TJA88nVrdkyShw3NkhMa2MwNjRnL3BET2VnRnhsMWFwM216Nkk9Wh8iHe5Ndk9VVjA5RDQvNWF3Uk1qL1VjNWZ0M3hkcDg9Zf2cjEoSqQEIjwESowEKHHlsYWpuRGE3NFJMTVZvdXpkeXlXVy9XbG8zcz0SJDI1MGI4ZmI0LTFlMWMtNDQyMi1hOWE3LTYzN2RhNDJhZjRkMBgAIAIoAjDflf/A1jI4oYH/wNYyQKKB/8DWMkocQWhUc2NOeHFFUENETmd0a0JUU2pPNTdtRVp3PVofIh32bnd0VWdBNVNtcll1NkI1TU1iamhCblZPZnVrPWWE4XiOEqcBCGoSogEKHGI1WmJsNGZlTEFJanVMbkNRYkVwQ1R2NGVEbz0SJGU4ZDljMjVhLTIyMmUtNDU5OC04ZDIzLWM2ODJlMDlkNWFhMBgAIAIoAjCPxtvu0TI4yLDb7tEyQMmw2+7RMkocM05ob2F1UTI3MWVkNlhteXZWRG5icHlYSkZJPVoeIhx0THk1bllma09IbVdDWHY1NWVKQ0ErMWVxZDA9Zf2cjEoSqgEIyQESpAEKHFlhd3ZXYUVGSnhmM3k3R0RyZkVCaDU1ZTI4QT0SJDA4ODE1NDVjLTcxOGQtNDQ4Ni05MjBhLWNiZTE4MDI2ZDk0NRgAIAIoAjDmzuHv3TI4kLvh790yQLO74e/dMkoceVRoYmZuNVNubjRZaVpkV1dGQ3hhcWliTk80PVogIh7//kNmT2g4OUtQMUdkQU50REh4OTlkU2V3eURMcz1lYWchNBKpAQiCARKjAQocMkh0by9TdnBybzZOdi8zem5FSVpLRUY2ZDh3PRIkMTFhZTMxZjYtNmZiOS00YWMyLTkxN2EtZjhiOGI5YTc4NWNjGAAgBCgEMNfu+YrYMjjG3riz1TJA59z5itgyShx4UHhpZVp1OWorQ1cvQ0NaK1NhWVJHNWliR0E9Wh8iHf9GZzRsVzVlemVpMUcvd2ZFUFk3b1E3aHdDa3c9ZcjzP7sSqAEIfRKjAQocQ1pVVkc1TW1IRDJ5OW1rUVJua0RuTGVUSS9jPRIkYjZkODYwOWItZDhhOC00NzdhLWJjMDQtOTEzNzBlNDkwYTBiGAAgAigCMOCopN7UMjjtk6Te1DJA8pOk3tQyShx0OUR3M0p2ZTBCWmNISVNmTlA4M2RrVzNjb1k9Wh8iHfcvNHhrbEE2UTN1TkpNVXpxNGRTNEZMYStJOFU9ZcjzP7sSqwEIgAESpQEKHCtWYUg0NncxQi82MzNocmUzSkczaTRaTHU2VT0SJDU1NjY4NmZlLWJlMzAtNGEwNC1hZjk0LTNhNTZlZmRiNDdiYxgAIAIoAjCAx6ez1TI40rKns9UyQNKyp7PVMkocSnBZZFdTWXFKZkN6RXRmZk9Sb0ZTS25sa0pvPVohIh///9NwbEEvQ1pWS0R0NzAwdmF2UFg1QUZ5NnBYQkE9ZXfS45sSqAEIPBKjAQocNTR2eW5EZ0lrL0c0enMyeWpjN3hhZVg5d2UwPRIkMTlkMGRhMTQtYzVhZS00ZmZkLTk4NDAtOTVkZjMxMWUyMzBmGAAgAigCMI7N3uTBMjjKuN7kwTJA5Lje5MEyShw5eW9JcmRVMnI5U2JybDl0Vks3UXJSMUp4Rk09Wh8iHfZrd2c3MFNzRW9MWGVWeU9nTEt2cEpiSE5HaUk9ZWFnITQSpwEIaxKiAQocUXVTYmRHQk9EYXdFb09Sd1JCRGpTZ0dBcjI0PRIkNWI3MWRhZGItYjJiZS00YWU0LWE2NDEtYTMxNDAzMDE1N2Q1GAAgAigCMNy67+7RMjiHpe/u0TJAiKXv7tEyShxIaXk3a01SWWlCMEJjazNjWmwyZTFqUGFjVXM9Wh4iHHcwZGJ3SWo5UDArcUpjb0s3SEFqV1d1VUt6ND1l/ZyMShKpAQhmEqQBChxkdVpCZldIRnZkWVUwOHF3UWhtZEpuUGhVSE09EiQwYjdhZjc1MC1iMjI3LTQwM2QtYWI4MS05YWJhNGMwN2Q4YTgYACABKAEw3oLd7dEyONby3O3RMkDW8tzt0TJKHGdwK1AwZG9GVis1U1FvdXVYejVLMUJEWENQUT1aICIe//pjeklobGI3a0RiNGorRGN4aWpyakZUOUlhOXc9ZQAAAAASqQEIzQESowEKHFhKZ1ZNdVdXeitGMTBNVFAzM0dDY0FnVU1GZz0SJDdlYWE5Y2VlLTYzOTQtNGRkYi1iNmM1LTg4MjNkZGYwZjI5ORgAIAIoAjD5n5e43jI4royXuN4yQK+Ml7jeMkocMWQzNWQzaGhWOXhST2N4M01yUm01MzVJNzVvPVofIh33Sk9HdkUvckVlbEZDVUV3ZFNkVlpSSTJmcVh3PWX9nIxKEqkBCJABEqMBChx5SU5leThKSVJNNE5vMDdzLy9WS3hqYSttL3c9EiQxOTNlOWIxNS1kY2VhLTQ3MmMtOTRhZC04OTY1YTg5NzEyMzUYACACKAIw6P2DwdYyOLXpg8HWMkC86YPB1jJKHG0yTWM1UWZUYTYxV2ZHRTNkSVpWWStMNFh4dz1aHyId+2NzMnhNZFFjb2F3TkRoc3cycGtKQ3RySm9RQT1lhOF4jhKoAQg5EqMBChw2aFdYYVM1TGFVMThlMDFid2IyMmhDNUIvY1k9EiQyMzIxYjUxYi03MTJkLTRhMjMtYjQ0Ni0xNTQzNjFhMGRiZjkYACACKAIwt/OS48EyOJ3skuPBMkCt7JLjwTJKHDAzN1BXeHJJa3BESXN5V0pCeFgyZTJVOWRNcz1aHyId7VRYTXNTVXlpTFpYMkcvQVN0dTNVL004SWprZz1lyPM/uxKpAQiGARKjAQocRkZmZ1E3RWRsdGVYRktlREJLZWxja3YvR0pJPRIkODM3MjUyNmEtYTA0Yi00Njk4LTg0MGUtZjAzMWIyMGQ5NWFjGAAgBCgEMNirzr/WMjj9hdG+1jJAxpfOv9YyShxWRHFob2htOXNtMzRjMjlEV0xZQVVRbFFnRkU9Wh8iHWlXeW11M2c2SVBtVWdYQ1JOOWlUWGFtZmdSMnc9ZcjzP7sSqgEIxwESpAEKHEpRZHQwMjFFSFkwQ29KeC9yMUZEYjM0ZEhnRT0SJDMyOTBkODM4LWJmZTAtNGQyZC1hZjJmLTg4MjIxYTVmMWM3MRgAIAIoAjC69N/v3TI4g+Hf790yQIXh3+/dMkocOWxGQjBxZThuTmZaZnFwWCtGOHAxRHhHYjMwPVogIh7/+3FyY1BHWW4yM1dRMXVNWEZhdEt0cDJyTnVtZz1lxU8wgxKpAQhbEqQBChxWU3UwcFdvcTdkQWlwbStOTUhzRlBHTSsrNW89EiQzNmNlYWIwZi0wYjM4LTRlODAtOWU5NS02MjIyMWY4OGRmMGQYACACKAIw0NjSucwyOK3E0rnMMkCuxNK5zDJKHGZ0R042bnFmenVLSUZvbzBtNjFsc0FKTGdPQT1aICIe/+03ckJub1o2bE9qUE9XNTJCOEVlc3RnL3Q0RjA9Zf2cjEoSqQEINBKkAQocdVREOS9kalZxYlY4MThOektkTnlsb1gzYWdZPRIkZjEyZmUzMTMtZTNiYi00ZTA4LWJjYzQtOTYyMDkyMTllZjVlGAAgAigCMKrTsIzVMjijkOLiwTJAi7+wjNUyShxZRXZ5Z0JRRXRiejc5RkNqWDBiS2dGWWpRSHc9WiAiHv/rRk10UnRvYnVTdlFPV3c3YXBKY0V2S2E4MU8wPWUAAAAAEqkBCNYBEqMBChwyZXp3d2pIa1VodTF2b0RIbXBiZmxZeSsrcjg9EiQyN2Y5MDQxYy1mYTA1LTQyMTMtYjA2Yy0zNTA0MDcxZjliOTIYACACKAIwm9Hwxt4yOIm98MbeMkCrvfDG3jJKHDhURFNiNzNlMTlVMUpRMVhkMmdBemp2T3pNOD1aHyId/TV2bXNiU0d6U0YwRHNpYWYyT0IyOHB6SmNYbz1lH+YxQhKoAQhKEqMBChxJYVRycE9ZbHVwSjRYOFRTTmlhZzZnSENva0k9EiQ0MjhhNmU2MC0zMWRkLTRmZmMtYWVhZS1mMGQzY2E4NjEyYWIYACADKAMwpP2w8NAyOKOFz+DDMkDE9bDw0DJKHGFKcHF4NlIyc0V6NzdEVVN5LzJSVlNBWk82UT1aHyId/kJQdTFLSlNmbkhGbTBhOWpDK2hSNXNJc3lVMD1lUZSVFRKpAQiTARKjAQocQTFvMll0RENmWVozY21tV1RPV25SOE9jRWlZPRIkYjI4OTA4M2YtZTM0NS00MjBkLTlkNjktZDIwZDNiODNiYjk1GAAgAigCMNfTm8HWMjiSv5vB1jJAk7+bwdYyShxxV0t4RWRPR1NrclRrWWJQbnowd1M1b0dJWDQ9Wh8iHf9naHp0TG02RXl0S01kRjUxU2ZzM3BJa1BnWDQ9ZYTheI4SqQEIExKkAQocakk4WW9GdDhSemhlWDNxc1I5dk9OZDl3cHJZPRIkMGQ5YjZmNTAtNTg5Mi00OTg4LWEwNTItM2U5OTFmMTdlM2FlGAAgASgBMIiLrMa+MjjTg6zGvjJA04Osxr4yShxMU2YyOFN5dGZWYSs1RlFyeUdWelZJclFwbTA9WiAiHv/WbjBkbXhEcWJQNExncmMybDhIUWhCaGRYTkpBPWUAAAAAEqkBCFoSpAEKHEtRWFJjOUxoUFVTcDFmWnZabEZaUjVjZWRKVT0SJDg0M2I5OTI4LThiNTItNDQ1Yi04NDUyLWU4NTEwMTBhM2RmMhgAIAIoAjC+j+W2zDI4+4fltswyQIKI5bbMMkocOXRKTHlEQVgrWW1UNGYrdlJwTXo3d2cwTjc0PVogIh7/20JkMytzdFVpTzhISDVCYTFIUE1yUjgrYzZEWT1lyPM/uxKrAQieARKlAQocV3JELzAzdkV4REVERmZKNkQybE10QzErQ2Q4PRIkN2E4NTZlMzMtMThjNi00OGNmLWFkMTItNThkMDhhNDg1N2RmGAAgAigCMKCllcLWMjjojJXC1jJA8IyVwtYyShx6QjlocjBkdEhxanlDZ0NqUVhISDZwd1dGcUE9WiEiH///6U95em5GNzdCU1Z1Mkpvcmo4UDNMZnZGa0VNbz1lhOF4jhKqAQiZARKkAQocTlQ2TjFwNkhOdTFiN0kvMklNTDVrOHZSbEdRPRIkZWM0YzYwMDMtYmJiYi00ODM2LTg3OTktMDkxYTAyMDRiYzllGAAgAigCMNij9MHWMjizj/TB1jJAuo/0wdYyShxqQ2lzaTVHUU5HZ3BFZFNrTFJTWk9zSEUrcnM9WiAiHv/9dWFxckF1UUtTbTRRcGthT1gxWjF4Nk1PMVJzPWWE4XiOEqkBCNEBEqMBChw5TXpFUEsvSUlDbzVNLyt5M3UweVFzd2JWRVk9EiRmM2M4OWMwYi0zMDkyLTQwYmQtYWVkNi00Y2ZhNGIxNDg5MDkYACACKAIwzcutw94yOJ+4rcPeMkDQuK3D3jJKHDE0dlB2eFRCejR3ekoxUWlkcUg4UXdhSEV3UT1aHyIdtjdRWUNjZDlWQzdqSE1uc1hxVzVWUVRkeGJSZz1lyPM/uxKoAQhvEqMBChxUNEduTmlaeXlyWU1LbGt4M3dxSkdhWFdlVEE9EiQ0YmRjMTlhNC1kMDc4LTQyZDMtOGRlZC03NGUyZjM2OGI4MTgYACACKAIw5d7f69IyOPDH3+vSMkDxx9/r0jJKHGVseHFhM2ZUb29jTDB6ZEpMNEVqWmpPU1IvYz1aHyId9FlHVlNoQUZJek1PVVJ6L1Y0SVAzcmxmZGgyTT1lyPM/uxKpAQh3EqQBChxIdStJVW9JR29ZeDY4QXBnYnkrZitNWUs5Z0U9EiQxOTA4MzU5YS02Mzc5LTRlYzAtYTk0My1iZDQ0OTkzNGQ0MzcYACABKAEwxeGS3tQyOPrLkt7UMkD6y5Le1DJKHHg2cVhZQUhMc2R5YUdVZGpGby9wRFZBMmlTOD1aICIe//4ralRhd0VPYytuZFBBOXJKZzgwQ2NhVXJpdEk9ZQAAAAASqQEI0gESowEKHDJMc1dHZmJTejY0by9jd3dydWVBNFI4aldFRT0SJGQwNTg2OTBkLTVjMzgtNDk2Ny1iYTliLTQwYmZjNDY5MjM5NRgAIAIoAjC8zrDD3jI45bmww94yQJC6sMPeMkocd0JrdTFIb2FrSW9OdlFGNXZLZC9PNjhuK2NBPVofIh3bNFV4ai9idTFRTXVwb0xkMVh3T0J6blFGeEc0PWXI8z+7EqkBCKoBEqMBChxmVk1IK2tRd1RodTV1YVJZS1NmN1FzbHM4Y0U9EiQ5OWRhMmEyNC1hMGRlLTQ0NDgtODg0NS0zZWE4ZDNlNzZkYmIYACACKAIwlufTrdkyOKDT063ZMkCh09Ot2TJKHGtqV1hyUW9UMExuRnMyVDJWNFZjNXNpQy9Haz1aHyId3GRvd2JCbzNxM3liYVczM2VXbGJURnRodSticz1l/ZyMShKpAQiRARKjAQocVVU4ZzNHelJ3VEU0MEZoNWVOME1pSWxlS29JPRIkMWU4YmU2MDQtMTNlYS00MWY1LThmYzAtOTQwNWJhYzg2N2M3GAAgAigCMI+ni8HWMjjckovB1jJA3JKLwdYyShx5ZWlXeFhmWXc3Y1E0cUVzSEtGbXg2d0pLdWs9Wh8iHf1WdHUzbXIzSVpSQ29pRVh5dVNuTjBGRExrQUE9ZYTheI4SqQEIMBKkAQocaW5ZR3N1ZEtJVDFRbjM0QlZBVU5ra1dWeW9rPRIkZDk3Mzg5MzctYzJmYi00YTFlLThjNDgtZDQ0NjYwZDFmMWRhGAAgAygDMLOTzOLBMjjo0YGhvzJA8v7L4sEyShxTNTBRMkx1SHhId3lMVGJvQ2hveEttYUFZb1k9WiAiHv+2MGJKcHFrWGY4NE9DVkNQa29CYUZlV2JVZXJzPWX9nIxKEqkBCIsBEqMBChxLOW1nVzNQWTQrRm9xYUcwNi9FWEhkUmFFQ3c9EiRmMzg4Y2RmOS0wOWQzLTQwNWQtYmM3Ny0zNTRkMjk1Mjc5ZjIYACACKAIwrdzav9YyOK/Q2r/WMkC30Nq/1jJKHDN2WE4wbmZENHVlUWVYZ2o1d2Q5VkpvbzVLMD1aHyIdt1hnOFQvRTRHL3k3TFJzTHhoZlVxMy91SG1Dcz1lhOF4jhKrAQivARKlAQocbkN6UFFVWlJBSWUxM09kL04yY1NHWFBhM2t3PRIkNWU1ZmRmMTAtZDliYy00NDhkLTg4NTYtZDk5MGZhNDU4NmRlGAAgAigCMMKC/djZMji17vzY2TJAue782NkyShx1YWN2bmJNZWFSczhFNjE4bCtHUUtTbm5lMHc9WiEiH////3VMcVRRRjdkKzdBbXFsc2F6am45QXhqbENobz1lhOF4jhKrAQicARKlAQocTzc3T1RaaldtTkQvVWpPZUZ3MDZQaVNNaWtVPRIkYzNmMDg5ZmUtOWE2My00OGQ3LTljNDYtZGUyYmVmZjBlNjUyGAAgAigCMI7EjMLWMjjRr4zC1jJA1q+MwtYyShxXcGhGSHg0dFBtSFFWN044RVVaN29ya3NnaTg9WiEiH///pUR4Qmt4SHdYSnJaRWtHOEJ1aVFkRktFYVY0ND1lhOF4jhKoAQhREqMBChxDNEZ3bjNBNnpxbDVNcmxyOGZuQ3ViWjdQM0U9EiRkZDc5ODllNy0yNTg5LTRhZDItYmQ4Yy1jNDRkNDkzN2RiNWUYACACKAIwv7uX9McyOLivl/THMkC/r5f0xzJKHGlPQlZKQ0I3bU9zNS8rN2xNSWxOcXdFemllTT1aHyId/VVpb0xlRmtBelZRZ1JEaEpJd2NZWjNsZmdNbz1lKhdFQRKpAQjTARKjAQocQWtodlBSanc4SkJrRmdmNmpqaUFXY2k5MFpZPRIkNTc1YjdhMDgtZWIwZi00NTVkLWJlODUtMGZkYzVmNjBiMzNkGAAgAigCMKL34sPeMji44+LD3jJA2+Piw94yShx5SVhNckpTN05yYnd6U0NtLzFURmNSL0pXNVU9Wh8iHe1uWDVVL3l4ZFFZZmZzeGdrMDZNajBOTUxZMFE9ZcjzP7sSqwEIogESpQEKHGZodUo0WjlySGpRSGU4aml6bjhhTHBoNGdPdz0SJGFiZjAwYTMzLWViOGItNGYxNS1hM2U1LWI4NTUyMTQyNDU1ZBgAIAAoADDt0+Ko2DI4kL/iqNgyQJC/4qjYMkocK0QvbEMvVnBtT1B2bzJhWVVQSWFwdnVDTTBjPVohIh////1NZHBQdGJRcDBvd0dIMWJzWVNHWloyS3VTWkk9ZQAAAAASqwEInQESpQEKHFRjOGFyTENVcDFSR1BxK21aa0lkYkE3K2lhQT0SJDQzMjMwZTdkLWQ4MzUtNGZjMS04ODJlLTYzOGJlODAzZjFlZhgAIAIoAjCRrY7C1jI415iOwtYyQNiYjsLWMkoceEkvVkhwVDRObEFXS1Y3RlZ4Y0t2SWdvUzJVPVohIh///9JsOHBsRlpCazdaWlV1VUpQQ3FrNzJyeG5yNEE9ZYTheI4SqgEIxAESpAEKHFVLL05Ja0NzWHE4T2owUFp2QjYxcDdhTHZRMD0SJDNiZjQzMjI0LTY1ZWItNDg1Zi1iMDhkLTg0NDU1MzI0NzdhZhgAIAIoAjCWu97v3TI48Kfe790yQPan3u/dMkocaDViZ2FUdVMxb0JrSWM1c1ZlMnNsQnFrT0VJPVogIh7/2TNlMVNONm5NcTZXcE96eVk1NVpHMWw0MTNnQT1lEDD/5BKoAQhyEqMBChxkQ2N6UWFqbWl1QjBhNjN6bmUrcHZTd0NENDg9EiRmOGNkMzMxNy00M2ZiLTRhMzEtOTVkZS1kNDc0MjBjMTE5YjkYACACKAIwjJT169IyOPL/9OvSMkD3//Tr0jJKHFAyaWkrdjdEK1ZvOGhObGVTcVo1Ti9nL3Uyaz1aHyId/kJHS24wcUhJb1JWdGZZTjhlRnRLZUtFcVRsYz1lFVD5iRKqAQibARKkAQocdGV2SkdMd2YvVE1uM1Ezbnk3YXdTdklRQnY4PRIkMzYzZWJlOWMtZTAxNy00NzI1LWExNzEtZmQ4ZWNlMmVhNTk3GAAgAigCML+bisLWMjjzhorC1jJA+IaKwtYyShxuN3F3MldyakJjdWJQeUZmcHk0YnVjV2Noazg9WiAiHv//SkkycHJIdlV5RGJ6eGcwTFBTNkZaYTd6SjJrPWWE4XiOEqgBCGISowEKHFlZWXVzUUtIaUxpMXA1dDdhSS9oOUVrL0IzQT0SJGFiMzM0MDRkLTFhYTEtNDgyMC1hNDA4LTliNzliZTE2MGU3YhgAIAIoAjDA6bXw0DI4hNW18NAyQIrVtfDQMkocYlNLRVRrWVQ1VGo1bkNqbEZTT09pcTlTOHRvPVofIh2iLzhBQk1FZ2g5cFlYNzljai9TWm5MT1kwamJvPWWPW31REqgBCKgBEqIBChxRemhKTm9ReTdWRWVwVWpqMEZrSzVOdiswK0U9EiRiNjA0YzI4Yi00NTY3LTRkMzYtODJhMS0yNTk0MjJiZTI0YTIYACACKAIw5brQrdkyOPCm0K3ZMkDxptCt2TJKHHhWWjhnQnBQZStEbWJYMWoyZXpzQml2QkQ1Yz1aHiIcclJFQ2RHeTZ5VHZOZStncVh0MEtYcmlVVzBBPWX9nIxKEqsBCKcBEqUBChwyRmc1aVRiQm9pdnVrUzRtRTNYTGwyZ2xjbE09EiRhN2RlZGQ4MC0yNzEwLTRkZDEtOGQ1ZS00YmY4ODE1ZmRhN2QYACABKAEwytfOrdkyONXDzq3ZMkDVw86t2TJKHFAvWTNXanA5QjRtOE1ycEVnSkNnTHYzWGhpQT1aISIf///YcloxODVrQlVuN2RIeFg5eFhwZlpMNTQ4WmVFPWUAAAAAEqoBCKMBEqQBChw3dnRXR0hmcDdqZFlKUThEK3IrRXBXVzViWTQ9EiQzYTRmMTY5OS0yODU4LTRkZDItOWM2Yi0wNjJlYmRkMjBhZmUYACACKAIwoYGP3NgyOJftjtzYMkCe7Y7c2DJKHDlhSjlET0RwdERndGFVMGZoZVZoYUU4WStxaz1aICIe/7NIRXhydzBXSXhwU2hQZnFYb2k4QTYzZnA3S1U9ZcjzP7sSqQEIqQESowEKHEVCRU5HbVBsM3FNaWxZNm1EUW5NS3ZEOU1ZYz0SJGExMTI5ZDNiLTU1NWQtNDgwZC05YjhhLTY3NjExZDA4MWQ1ORgAIAIoAjDQtdGt2TI45arRrdkyQOmq0a3ZMkocd3ZnMURBd3o2WFMwSzJreEpIRE5EaElGV2hVPVofIh25U0lFWEx2ZGF0MjYwZlNyN2JFRkhMMmRGMm13PWX9nIxKEqgBCNABEqIBChx6eGJUWUhWdzZqSlAyVWpoUHVHSmw3YktEQ009EiQ5MjI2MDViNi01YWU0LTQ3NmItOWU5NC0xZTcyYThiZjU3ZTgYACACKAIw/sCsw94yOMqtrMPeMkDXrazD3jJKHFJsVkRraG5NdG5jTlBhSy9TYVd1UXRrYVVFRT1aHiIcbGMzcnRVOFVJa1R0NUs2clZqZCsrR3RSUGI0PWXI8z+7EqkBCIEBEqMBChxtTlU3a3d0R2VDL1hDWVBBakRka1J4SG11MFE9EiRkZGE4MmYzZC00M2NiLTQxYjUtOWVlMC00YmQ0MmI0NzNiZWIYACACKAIwk7Cos9UyONOcqLPVMkDanKiz1TJKHFlHZHcxeUN2djc2TFVaOTdnWjd0YUx0alM1bz1aHyId/lhqTWlFRldYTVdZZkwyckFGMmdrbmNFOEozcz1lSaNMyzABOAA=",
+   "version": 1
+}

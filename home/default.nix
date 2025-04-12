@@ -31,6 +31,7 @@
     };
     activation.installDots = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
       ${pkgs.rsync}/bin/rsync -avz --chmod=D2755,F744 ${./dotfiles/fastfetch}/ ${config.xdg.configHome}/fastfetch/
+      ${pkgs.rsync}/bin/rsync -avz --chmod=D2755,F744 ${./dotfiles/Bookmarks} ~/Library/Application\ Support/BraveSoftware/Brave-Browser/Default/
     '';
   };
 
