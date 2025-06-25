@@ -6,7 +6,8 @@
     ./eza.nix
     ./git.nix
     ./helix.nix
-    ./neovim.nix
+    ./kitty.nix
+    ./nvf.nix
     ./shell.nix
     ./starship.nix
     ./vscode.nix
@@ -37,13 +38,17 @@
     gcc
     gdu
     wakelan
-    inputs.nixvim.packages.aarch64-darwin.nvim
+    aerospace
   ];
 
   fonts = {
     fontconfig.enable = true;
   };
   programs = {
+    neovim = {
+      enable = true;
+      defaultEditor = true;
+    };
     #   # A command-line fuzzy finder
     fzf = {
       enable = true;
@@ -81,6 +86,9 @@
       enableBashIntegration = true;
       enableFishIntegration = true;
       enableNushellIntegration = true;
+      settings = {
+        style = "full";
+      };
     };
 
     carapace = {

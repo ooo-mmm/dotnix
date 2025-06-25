@@ -1,5 +1,4 @@
 {
-  inputs,
   lib,
   config,
   pkgs,
@@ -21,8 +20,8 @@
       backupFileExtension = "hm-bk";
       # Shell
       BROWSER = "brave";
-      EDITOR = "hx";
-      TERMINAL = "iterm2";
+      EDITOR = "nvim";
+      TERMINAL = "kitty";
       TERM = "xterm-256color";
       HISTFILE = "$XDG_DATA_HOME/history";
       HISTSIZE = 10000;
