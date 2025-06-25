@@ -1,5 +1,8 @@
-{ pkgs, inputs, ... }:
-let
+{
+  pkgs,
+  inputs,
+  ...
+}: let
   # Yazi plugins repository
   # plugins = pkgs.fetchFromGitHub {
   #   owner = "yazi-rs";
@@ -7,7 +10,6 @@ let
   #   rev = "06e5fe1c7a2a4009c483b28b298700590e7b6784";
   #   hash = "sha256-jg8+GDsHOSIh8QPYxCvMde1c1D9M78El0PljSerkLQc=";
   # };
-
   # Catppuccin Mocha palette
   rosewater = "#f5e0dc";
   flamingo = "#f2cdcd";
@@ -35,8 +37,7 @@ let
   base = "#1e1e2e";
   mantle = "#181825";
   crust = "#010101";
-in
-{
+in {
   programs.yazi = {
     enable = true;
     # package = inputs.yazi.packages.${pkgs.system}.default;
@@ -48,14 +49,14 @@ in
     # initLua = ../dotfiles/yazi/main.lua;
 
     keymap = {
-      manager.prepend_keymap = [
+      mgr.prepend_keymap = [
         {
-          on = [ "<A-f>" ];
+          on = ["<A-f>"];
           run = "seek 5";
           desc = "Scroll down (backward) in the preview panel";
         }
         {
-          on = [ "<A-b>" ];
+          on = ["<A-b>"];
           run = "seek -5";
           desc = "Scroll up (forward) in the preview panel";
         }
@@ -63,7 +64,7 @@ in
     };
 
     theme = {
-      manager = {
+      mgr = {
         cwd = {
           fg = "${teal}";
         };
@@ -198,8 +199,8 @@ in
         border = {
           fg = "${blue}";
         };
-        title = { };
-        value = { };
+        title = {};
+        value = {};
         selected = {
           reversed = true;
         };
@@ -212,14 +213,14 @@ in
         active = {
           fg = "${pink}";
         };
-        inactive = { };
+        inactive = {};
       };
 
       tasks = {
         border = {
           fg = "${blue}";
         };
-        title = { };
+        title = {};
         hovered = {
           underline = true;
         };
