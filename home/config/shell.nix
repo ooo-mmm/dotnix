@@ -57,11 +57,10 @@ in {
         la = "ls -a";
         ll = "ls -l";
       };
-    extraConfig = "
-      alias atuin = ${pkgs.atuin}/bin/atuin
-      alias zoxide = ${pkgs.zoxide}/bin/zoxide
+    extraConfig = ''
+      $env.PATH = ($env.PATH | append [$"($env.HOME)/.nix-profile/bin" $"($env.HOME)/.local/bin" "/nix/var/nix/profiles/default/bin"])
       ${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s
-    ";
+    '';
   };
 
   programs.bash = {
