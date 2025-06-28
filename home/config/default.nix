@@ -10,7 +10,7 @@
     ./git.nix
     ./helix.nix
     ./kitty.nix
-    ./nvf.nix
+    # ./nvf.nix
     ./shell.nix
     ./starship.nix
     ./vscode.nix
@@ -42,16 +42,13 @@
     gdu
     wakelan
     claude-code
+    inputs.xvim.packages.aarch64-darwin.default
   ];
 
   fonts = {
     fontconfig.enable = true;
   };
   programs = {
-    neovim = {
-      enable = true;
-      defaultEditor = true;
-    };
     #   # A command-line fuzzy finder
     fzf = {
       enable = true;

@@ -10,30 +10,30 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nvf.url = "github:ooo-mmm/nvf";
+    xvim = {
+      url = "github:ooo-mmm/xvim";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # Yazi file manager
     # yazi.url = "github:sxyazi/yazi";
   };
 
-  outputs =
-    {
-      self,
-      nixpkgs,
-      home-manager,
-      # yazi,
-      ...
-    }@inputs:
-    let
-      inherit (self) outputs;
-    in
-    {
-      homeConfigurations = {
-        "v" = home-manager.lib.homeManagerConfiguration {
-          pkgs = nixpkgs.legacyPackages.aarch64-darwin;
-          extraSpecialArgs = { inherit inputs outputs; };
-          modules = [ ./home ];
-        };
+  outputs = {
+    self,
+    nixpkgs,
+    home-manager,
+    # yazi,
+    ...
+  } @ inputs: let
+    inherit (self) outputs;
+  in {
+    homeConfigurations = {
+      "v" = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.aarch64-darwin;
+        extraSpecialArgs = {inherit inputs outputs;};
+        modules = [./home];
       };
     };
+  };
 }
