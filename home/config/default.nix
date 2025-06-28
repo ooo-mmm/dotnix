@@ -1,5 +1,8 @@
-{ pkgs, inputs, ... }:
 {
+  pkgs,
+  inputs,
+  ...
+}: {
   imports = [
     ./bat.nix
     ./direnv.nix
@@ -38,7 +41,7 @@
     gcc
     gdu
     wakelan
-    aerospace
+    claude-code
   ];
 
   fonts = {
@@ -93,8 +96,8 @@
 
     carapace = {
       enable = true;
-      enableBashIntegration = true;
       enableNushellIntegration = true;
+      enableBashIntegration = true;
     };
 
     ssh = {

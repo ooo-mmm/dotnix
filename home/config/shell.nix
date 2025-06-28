@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-let
+{pkgs, ...}: let
   commonAliases = {
     # Editors
     n = "nvim";
@@ -24,32 +23,45 @@ let
     lg = "lazygit";
     y = "yazi";
     zj = "zellij";
+    c = "clear";
   };
 
-  shellAliases = commonAliases // {
-    ls = "eza --group-directories-first --long";
-    ll = "eza --group-directories-first --long";
-    la = "eza --group-directories-first --long --all";
-    lt = "eza --group-directories-first --tree";
-    llt = "eza --group-directories-first --long --tree";
-    # Change dirs
-    ".1" = "cd ..";
-    ".2" = "cd ../..";
-    ".3" = "cd ../../..";
-    ".4" = "cd ../../../..";
-    ".5" = "cd ../../../../..";
+  shellAliases =
+    commonAliases
+    // {
+      ls = "eza --group-directories-first --long";
+      ll = "eza --group-directories-first --long";
+      la = "eza --group-directories-first --long --all";
+      lt = "eza --group-directories-first --tree";
+      llt = "eza --group-directories-first --long --tree";
+      # Change dirs
+      ".1" = "cd ..";
+      ".2" = "cd ../..";
+      ".3" = "cd ../../..";
+      ".4" = "cd ../../../..";
+      ".5" = "cd ../../../../..";
 
-    mkdir = "mkdir -p";
-    watch-usb = "watch -n 1 -d grep -e Dirty: -e Writeback: /proc/meminfo";
-  };
-
-in
-{
+      mkdir = "mkdir -p";
+      watch-usb = "watch -n 1 -d grep -e Dirty: -e Writeback: /proc/meminfo";
+    };
+in {
   programs.nushell = {
     enable = true;
-    configFile.source = ../dotfiles/nushell/config.nu;
-    shellAliases = commonAliases;
-    extraConfig = "${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s";
+    # configFile.source = ../dotfiles/nushell/config.nu;
+    settings = {
+      show_banner = false;
+    };
+    shellAliases =
+      commonAliases
+      // {
+        la = "ls -a";
+        ll = "ls -l";
+      };
+    extraConfig = "
+      alias atuin = ${pkgs.atuin}/bin/atuin
+      alias zoxide = ${pkgs.zoxide}/bin/zoxide
+      ${pkgs.krabby}/bin/krabby random --no-mega --no-gmax --no-regional --no-title -s
+    ";
   };
 
   programs.bash = {
