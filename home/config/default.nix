@@ -42,7 +42,9 @@
     gdu
     wakelan
     claude-code
+    gemini-cli
     inputs.xvim.packages.aarch64-darwin.default
+    fastfetch
   ];
 
   fonts = {
